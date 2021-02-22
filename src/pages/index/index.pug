@@ -1,0 +1,19 @@
+extends ../../components/layout/layout.pug
+
+block meta
+    title Demo page
+    meta(name='description', content='Demo page')
+
+block scripts
+
+block styles
+    link(rel='stylesheet', type='text/css', href='/css/header/header.css')
+    link(rel='stylesheet', type='text/css', href='/css/main/main.css')
+    link(rel='stylesheet', type='text/css', href='/css/footer/footer.css')
+
+block header
+    include ../../components/header/header.pug
+block content
+    include ../../components/main/main.pug
+block footer
+    include ../../components/footer/footer.pug
