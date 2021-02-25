@@ -1,6 +1,11 @@
 .who-we-are {
     padding-top: 45px;
     padding-bottom: 80px;
+
+    background-image: url('/backgrounds/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .who-we-are--margin-left-md {
