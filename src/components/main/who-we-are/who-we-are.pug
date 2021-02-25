@@ -32,12 +32,15 @@ article.who-we-are.main-block.row.no-gutters
         section
             .row.no-gutters.who-we-are--spacing
                 .col-auto.who-we-are--features-margin
-                    +card-with-icon({icon: "lock"})
+                    +card-with-icon({icon: "lock.svg"})
                         h6.who-we-are--text-bold Гарантируем сохранность груза
                 .col-auto.who-we-are--features-margin
-                    +card-with-icon({icon: "parcel"})
-                        h6.who-we-are--text-bold Доставляем сборные грузы от 1 кг
+                    +card-with-icon({icon: "parcel.svg"})
+                        h6.who-we-are--text-bold 
+                            | #{"Доставляем сборные грузы "}
+                            .showon-sm
+                            | от 1 кг
                 .col-auto.who-we-are--features-margin
-                    +card-with-icon({icon: "china"})
+                    +card-with-icon({icon: "china.svg"})
                         h6.who-we-are--text-bold Большая база партнеров в Китае
     .who-we-are__container-image

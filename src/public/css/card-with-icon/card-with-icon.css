@@ -2,10 +2,34 @@
     max-width: 222px;
 }
 
+@media (max-width: 576px) {
+    .card-with-icon--borderless {
+        max-width: 156px;
+    }
+}
+
 .card-with-icon--borderless > .card-with-icon__icon-block {
     margin-left: -4px;
 }
 
+.card-with-icon__icon {
+    width: 72px;
+    height: 72px;
+}
+
+@media (max-width: 576px) {
+    .card-with-icon__icon {
+        width: 64px;
+        height: 64px;
+    }
+}
+
 .card-with-icon--margin-md {
     margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .card-with-icon--margin-md {
+        margin-top: 12px;
+    }
 }
