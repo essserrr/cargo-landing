@@ -1,9 +1,9 @@
 .card-with-icon--borderless {
-    max-width: 226px;
+    max-width: 222px;
 }
 
-.card-with-icon--borderless > .card-with-icon__text-block {
-    padding-left: 4px;
+.card-with-icon--borderless > .card-with-icon__icon-block {
+    margin-left: -4px;
 }
 
 .card-with-icon--margin-md {

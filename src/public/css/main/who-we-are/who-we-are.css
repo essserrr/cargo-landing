@@ -1,4 +1,6 @@
 .who-we-are {
+    position: relative;
+
     padding-top: 45px;
     padding-bottom: 80px;
 
@@ -8,8 +10,36 @@
     background-position: 50% 50%;
 }
 
+.who-we-are__content {
+    z-index: 1;
+}
+
+.who-we-are__container-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 848px;
+    width: 986px;
+
+    z-index: 0;
+
+    background-image: url('/objects/container.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.who-we-are__phone {
+    margin-top: -4px;
+}
+
 .who-we-are--margin-left-md {
-    margin-left: 76px;
+    margin-left: 80px;
+}
+
+.who-we-are--margin-left-sm {
+    margin-left: 66px;
 }
 
 .who-we-are--margin-top-xl {
@@ -34,4 +64,12 @@
 
 .who-we-are--text-bold {
     font-weight: 500;
+}
+
+.who-we-are--max-864 {
+    max-width: 864px;
+}
+
+.who-we-are--max-747 {
+    max-width: 747px;
 }
