@@ -9,6 +9,28 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TT Travels-bold';
+    src: url('TTTravels-Bold.eot');
+    src: url('./TTTravels-Bold.woff2') format('woff2'),
+        url('./TTTravels-Bold.woff') format('woff'),
+        url('./TTTravels-Bold.ttf') format('truetype'),
+        url('./TTTravels-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Travels-medium';
+    src: url('TTTravels-Medium.eot');
+    src: url('./TTTravels-Medium.woff2') format('woff2'),
+        url('./TTTravels-Medium.woff') format('woff'),
+        url('./TTTravels-Medium.ttf') format('truetype'),
+        url('./TTTravels-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'TT Travels', Arial, sans-serif;
     font-style: normal;
@@ -17,6 +39,8 @@ body {
 }
 
 h1 {
+    font-family: 'TT Travels-medium';
+    letter-spacing: 0.8px;
     font-weight: 600;
     font-size: 56px;
     line-height: 64px;
