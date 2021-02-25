@@ -23,6 +23,10 @@
     margin-top: 32px;
 }
 
+.who-we-are--margin-top-xs {
+    margin-top: 4px;
+}
+
 .who-we-are--text-bold {
     font-weight: 500;
 }
