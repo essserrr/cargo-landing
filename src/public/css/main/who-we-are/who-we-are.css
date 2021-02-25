@@ -10,6 +10,18 @@
     background-position: 50% 50%;
 }
 
+.who-we-are__logo {
+    width: 160px;
+    height: 70.4px;
+}
+
+@media (max-width: 576px) {
+    .who-we-are__logo {
+        width: 125px;
+        height: 55px;
+    }
+}
+
 .who-we-are__content {
     z-index: 1;
 }
@@ -47,6 +59,12 @@
     margin-top: -4px;
 }
 
+@media (max-width: 576px) {
+    .who-we-are__phone {
+        margin-top: 4px;
+    }
+}
+
 .who-we-are--margin-top-xl {
     margin-top: 124.6px;
 }
@@ -63,8 +81,14 @@
     margin-top: 32px;
 }
 
-.who-we-are--margin-top-xs {
+.who-we-are--feedback-margin {
     margin-top: 4px;
+}
+
+@media (max-width: 576px) {
+    .who-we-are--feedback-margin {
+        margin-top: -2px;
+    }
 }
 
 .who-we-are--text-bold {
