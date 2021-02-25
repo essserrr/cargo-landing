@@ -1,0 +1,7 @@
+mixin text-button(props)
+    - const { label, variant = "underlined", disabled = false } = props;
+    - const themeVariant = ` text-button--${variant}`;
+
+    button(class=`text-button${themeVariant}`, disabled=disabled)
+        if label
+            .text-button__label #{label}
