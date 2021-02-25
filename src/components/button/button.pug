@@ -1,0 +1,9 @@
+mixin button(props)
+    - const { label, theme = "blue", size = "md", disabled = false } = props;
+    - const themeVariant = ` button--${theme}`;
+    - const sizeVaraint = ` button--${size}`;
+
+    button(class=`button${themeVariant}${sizeVaraint}`, disabled=disabled)
+        .row.no-gutters
+            if label
+                .col.button__label #{label}

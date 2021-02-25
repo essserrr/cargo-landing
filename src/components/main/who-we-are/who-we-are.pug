@@ -1,3 +1,5 @@
+include ../../button/button.pug
+
 article.main-block.row.no-gutters
     header.col-12
     section.col-12 
@@ -7,4 +9,5 @@ article.main-block.row.no-gutters
     section.col-12 
         h6 А также услуги по поиску товара или поставщиков. Таможенная очистка и сертификация, выкуп товара, выкуп товаров с торговых площадок.
     section.col-12 
+        +button({label: "рассчитать стоимость", theme: "dark"})
     section.col-12 
