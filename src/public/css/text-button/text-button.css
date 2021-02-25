@@ -15,6 +15,7 @@
     font-family: 'TT Travels', Arial, sans-serif;
     font-style: normal;
     line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .text-button.text-button--default .text-button__label {
@@ -28,8 +29,7 @@
 }
 
 .text-button.text-button--default:focus .text-button__label {
-    color: linear-gradient(0deg, rgba(43, 48, 62, 0.1), rgba(43, 48, 62, 0.1)),
-        linear-gradient(0deg, #7370ff, #7370ff);
+    color: #6c6aec;
 }
 
 .text-button.text-button--underlined .text-button__label {
@@ -52,12 +52,7 @@
 }
 
 .text-button.text-button--underlined:hover .text-button__label {
-    color: linear-gradient(
-            0deg,
-            rgba(255, 255, 255, 0.1),
-            rgba(255, 255, 255, 0.1)
-        ),
-        linear-gradient(0deg, #7370ff, #7370ff);
+    color: #817eff;
 }
 
 .text-button.text-button--underlined:hover .text-button__label:after {
@@ -65,8 +60,7 @@
 }
 
 .text-button.text-button--underlined:focus .text-button__label {
-    color: linear-gradient(0deg, rgba(43, 48, 62, 0.1), rgba(43, 48, 62, 0.1)),
-        linear-gradient(0deg, #7370ff, #7370ff);
+    color: #6c6aec;
 }
 
 .text-button.text-button--underlined:focus .text-button__label:after {
