@@ -1,8 +1,17 @@
 include ../../button/button.pug
+include ../../text-button/text-button.pug
 include ../../card-with-icon/card-with-icon.pug
 
 article.who-we-are.main-block.row.no-gutters
     header.col-12
+        .row.no-gutters.justify-content-between 
+            .col-auto
+                .icon-logo
+            .col-auto.text-right
+                h5 +7 (963) 800-57-52
+                .who-we-are--margin-top-xs 
+                    +text-button({label: "Обратный звонок"})
+
     section.col-12.who-we-are--margin-top-xl
         h1 
             | Доставка любых грузов из Китая в Россию
