@@ -12,25 +12,32 @@ article.who-we-are.main-block.row.no-gutters
                     h5 +7 (963) 800-57-52
                     .who-we-are--feedback-margin
                         +text-button({label: "Обратный звонок"})
-        section.who-we-are--margin-top-xl.who-we-are--max-864
+        section.who-we-are--title-margin.who-we-are--max-864
             h1 
-                | Доставка любых грузов
-                br
-                | из Китая в Россию
+                | #{"Доставка любых грузов "}
+                .hideon-sm
+                | #{"из Китая "}
+                .showon-sm
+                | в Россию
                 i.text--blue #{" от 10 дней"}
-        section.who-we-are--margin-top-sm.who-we-are--max-747
-            h6 А также услуги по поиску товара или поставщиков. Таможенная очистка и сертификация, выкуп товара, выкуп товаров с торговых площадок.
-        section.who-we-are--margin-top-md
+        section.who-we-are--descr-margin.who-we-are--max-747
+            h6 
+                | #{"А также услуги по поиску товара "}
+                .showon-sm
+                | #{"или поставщиков. Таможенная очистка "}
+                .showon-sm
+                | и сертификация, выкуп товара, выкуп товаров с торговых площадок.
+        section.who-we-are--button-margin
             +button({label: "рассчитать стоимость", theme: "dark"})
         section
             .row.no-gutters.who-we-are--spacing
-                .col-auto.who-we-are--margin-top-lg
+                .col-auto.who-we-are--features-margin
                     +card-with-icon({icon: "lock"})
                         h6.who-we-are--text-bold Гарантируем сохранность груза
-                .col-auto.who-we-are--margin-top-lg
+                .col-auto.who-we-are--features-margin
                     +card-with-icon({icon: "parcel"})
                         h6.who-we-are--text-bold Доставляем сборные грузы от 1 кг
-                .col-auto.who-we-are--margin-top-lg
+                .col-auto.who-we-are--features-margin
                     +card-with-icon({icon: "china"})
                         h6.who-we-are--text-bold Большая база партнеров в Китае
     .who-we-are__container-image
