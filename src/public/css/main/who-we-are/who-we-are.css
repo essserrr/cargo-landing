@@ -1,0 +1,28 @@
+.who-we-are {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.who-we-are--margin-left-md {
+    margin-left: 76px;
+}
+
+.who-we-are--margin-top-xl {
+    margin-top: 124.6px;
+}
+
+.who-we-are--margin-top-lg {
+    margin-top: 76px;
+}
+
+.who-we-are--margin-top-md {
+    margin-top: 56px;
+}
+
+.who-we-are--margin-top-sm {
+    margin-top: 32px;
+}
+
+.who-we-are--text-bold {
+    font-weight: 500;
+}

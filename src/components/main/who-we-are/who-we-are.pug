@@ -1,13 +1,24 @@
 include ../../button/button.pug
+include ../../card-with-icon/card-with-icon.pug
 
-article.main-block.row.no-gutters
+article.who-we-are.main-block.row.no-gutters
     header.col-12
-    section.col-12 
+    section.col-12.who-we-are--margin-top-xl
         h1 
             | Доставка любых грузов из Китая в Россию
             i.text--blue #{" от 10 дней"}
-    section.col-12 
+    section.col-12.who-we-are--margin-top-sm
         h6 А также услуги по поиску товара или поставщиков. Таможенная очистка и сертификация, выкуп товара, выкуп товаров с торговых площадок.
-    section.col-12 
+    section.who-we-are--margin-top-md
         +button({label: "рассчитать стоимость", theme: "dark"})
-    section.col-12 
+    section.col-12.who-we-are--margin-top-lg
+        .row.no-gutters
+            .col-auto
+                +card-with-icon({icon: "lock"})
+                    h6.who-we-are--text-bold Гарантируем сохранность груза
+            .col-auto.who-we-are--margin-left-md
+                +card-with-icon({icon: "parcel"})
+                    h6.who-we-are--text-bold Доставляем сборные грузы от 1 кг
+            .col-auto.who-we-are--margin-left-md
+                +card-with-icon({icon: "china"})
+                    h6.who-we-are--text-bold Большая база партнеров в Китае
