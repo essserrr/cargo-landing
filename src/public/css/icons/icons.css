@@ -14,3 +14,8 @@
     height: 72px;
     background-image: url(./parcel.svg);
 }
+.icon-logo {
+    width: 160px;
+    height: 70.4px;
+    background-image: url(./logo.svg);
+}
