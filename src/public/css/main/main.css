@@ -30,3 +30,16 @@
         padding-right: 14px;
     }
 }
+
+.showon-sm {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .hideon-sm {
+        display: none;
+    }
+    .showon-sm {
+        display: block;
+    }
+}
