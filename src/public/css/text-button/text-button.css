@@ -18,6 +18,12 @@
     letter-spacing: 0.3px;
 }
 
+@media (max-width: 576px) {
+    .text-button__label {
+        line-height: 22px;
+    }
+}
+
 .text-button.text-button--default .text-button__label {
     font-weight: 500;
     font-size: 14px;
@@ -36,6 +42,12 @@
     font-weight: 600;
     font-size: 16px;
     color: #7370ff;
+}
+
+@media (max-width: 576px) {
+    .text-button.text-button--underlined .text-button__label {
+        font-size: 14px;
+    }
 }
 
 .text-button.text-button--underlined .text-button__label:after {
