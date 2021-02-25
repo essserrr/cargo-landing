@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'TT Travels';
+    src: url('TTTravels-Regular.eot');
+    src: url('./TTTravels-Regular.woff2') format('woff2'),
+        url('./TTTravels-Regular.woff') format('woff'),
+        url('./TTTravels-Regular.ttf') format('truetype'),
+        url('./TTTravels-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #111111;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text--blue {
+    color: #7370ff;
+    font-style: normal;
+}
+
+.text--green {
+    color: #6dfe3b;
+    font-style: normal;
+}
