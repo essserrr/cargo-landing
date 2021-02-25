@@ -4,6 +4,10 @@
     border: none;
 }
 
+.button:focus {
+    outline: none;
+}
+
 .button__label {
     font-family: 'TT Travels', Arial, sans-serif;
     font-style: normal;
@@ -12,21 +16,16 @@
     line-height: 24px;
 }
 
-.button:disabled {
-    opacity: 0.5;
-    cursor: unset;
-}
-
-.button--md {
+.button.button--md {
     padding: 20px 54px 20px 55px;
 }
 
-.button--blue {
+.button.button--blue {
     background: #7370ff;
     color: #ffffff;
 }
 
-.button--blue:hover {
+.button.button--blue:hover {
     background: linear-gradient(
             0deg,
             rgba(255, 255, 255, 0.1),
@@ -35,22 +34,21 @@
         #7370ff;
 }
 
-.button--blue:active {
+.button.button--blue:focus {
     background: linear-gradient(
             0deg,
             rgba(43, 48, 62, 0.1),
             rgba(43, 48, 62, 0.1)
         ),
         #7370ff;
-    outline: none;
 }
 
-.button--green {
+.button.button--green {
     background: #6dfe3b;
     color: #111111;
 }
 
-.button--green:hover {
+.button.button--green:hover {
     background: linear-gradient(
             0deg,
             rgba(255, 255, 255, 0.25),
@@ -59,17 +57,16 @@
         #6dfe3b;
 }
 
-.button--green:active {
+.button.button--green:focus {
     background: linear-gradient(
             0deg,
             rgba(43, 48, 62, 0.03),
             rgba(43, 48, 62, 0.03)
         ),
         #6dfe3b;
-    outline: none;
 }
 
-.button--dark {
+.button.button--dark {
     background: linear-gradient(
             0deg,
             rgba(255, 255, 255, 0.1),
@@ -79,7 +76,7 @@
     color: #f2f2f2;
 }
 
-.button--dark:hover {
+.button.button--dark:hover {
     background: linear-gradient(
             0deg,
             rgba(255, 255, 255, 0.1),
@@ -88,12 +85,11 @@
         #111111;
 }
 
-.button--dark:active {
+.button.button--dark:focus {
     background: linear-gradient(
             0deg,
             rgba(255, 255, 255, 0.15),
             rgba(255, 255, 255, 0.15)
         ),
         #111111;
-    outline: none;
 }
