@@ -1,0 +1,10 @@
+mixin card-with-icon(props)
+    - const { icon, variant = "borderless", margin = "md" } = props;
+    - const cardVariant = ` card-with-icon--${variant}`;
+    - const marginVariant = ` card-with-icon--margin-${margin}`;
+    div(class=`row no-gutters card-with-icon${cardVariant}`)
+        .col-12.card-with-icon__icon-block
+            div(class=`icon-${icon}`)
+        if (block)
+            div(class=`col-12 card-with-icon__text-block${marginVariant}`)
+                block

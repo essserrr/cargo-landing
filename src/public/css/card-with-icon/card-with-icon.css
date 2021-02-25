@@ -1,0 +1,11 @@
+.card-with-icon--borderless {
+    max-width: 226px;
+}
+
+.card-with-icon--borderless > .card-with-icon__text-block {
+    padding-left: 4px;
+}
+
+.card-with-icon--margin-md {
+    margin-top: 20px;
+}
