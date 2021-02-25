@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'TT Travels-bold';
+    font-family: 'TT Travels Bold';
     src: url('TTTravels-Bold.eot');
     src: url('./TTTravels-Bold.woff2') format('woff2'),
         url('./TTTravels-Bold.woff') format('woff'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-    font-family: 'TT Travels-medium';
+    font-family: 'TT Travels Medium';
     src: url('TTTravels-Medium.eot');
     src: url('./TTTravels-Medium.woff2') format('woff2'),
         url('./TTTravels-Medium.woff') format('woff'),
@@ -39,7 +39,7 @@ body {
 }
 
 h1 {
-    font-family: 'TT Travels-medium';
+    font-family: 'TT Travels Medium', Arial, sans-serif;
     letter-spacing: 0.8px;
     font-weight: 600;
     font-size: 56px;
@@ -48,6 +48,8 @@ h1 {
 }
 
 h5 {
+    font-family: 'TT Travels Medium', Arial, sans-serif;
+    letter-spacing: 0.2px;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
