@@ -2,3 +2,31 @@
     padding-left: 256px;
     padding-right: 264px;
 }
+
+@media (max-width: 1800px) {
+    .main-block {
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+}
+
+@media (max-width: 1730px) {
+    .main-block {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-block {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-block {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
