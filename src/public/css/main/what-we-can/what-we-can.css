@@ -88,3 +88,36 @@
     text-align: center;
     color: #ffffff;
 }
+
+.we-can__goods-list > .col-auto {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.we-can__goods-list > .col-auto:nth-of-type(1) {
+    padding-left: 38px;
+}
+
+.we-can__goods-list > .col-auto:nth-of-type(2) {
+    padding-left: 10px;
+}
+.we-can__goods-list > .col-auto:nth-of-type(3) {
+    padding-right: 8px;
+}
+.we-can__goods-list > .col-auto:nth-of-type(4) {
+    padding-right: 20px;
+}
+
+.we-can__goods-list > .col-auto:nth-of-type(6) {
+    padding-left: 38px;
+}
+
+.we-can__goods-list > .col-auto:nth-of-type(7) {
+    padding-left: 4px;
+}
+.we-can__goods-list > .col-auto:nth-of-type(8) {
+    padding-right: 4px;
+}
+.we-can__goods-list > .col-auto:nth-of-type(9) {
+    padding-right: 24px;
+}

@@ -2,11 +2,9 @@ mixin carried-item(props)
     - const { icon, height = "md" } = props;
     - const heightStyle = ` carried-item--height-${height}`;
 
-    div(
-        style=` carried-item row no-gutters justify-content-center${heightStyle}`
-    )
+    div(class=` carried-item row no-gutters justify-content-center${heightStyle}`)
         .carried-item__icon-block.col-auto
             img.carried-item__icon(src=`/css/icons/${icon}`)
         if (block)
-            .carried-item__text-block.col-12.px-0
+            .carried-item__text-block.col-auto
                 block

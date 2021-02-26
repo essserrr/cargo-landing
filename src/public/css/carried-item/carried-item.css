@@ -1,6 +1,6 @@
 .carried-item {
     max-width: 242px;
-    min-width: 160px;
+    min-width: 242px;
 
     max-height: 256px;
     min-height: 224px;
@@ -23,6 +23,8 @@
 }
 
 .carried-item__text-block {
+    margin-top: 32px;
+
     text-align: center;
     color: #ffffff !important;
     white-space: pre-line;

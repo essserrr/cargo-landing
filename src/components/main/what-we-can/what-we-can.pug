@@ -66,30 +66,33 @@ article.we-can.main-block.row.no-gutters
                 h1.we-can__goods-title
                     | #{"Категории товаров, которые мы перевезли "}
                     i.text--green в 2020 году
-            .row.no-gutters.justify-content-between
+            .we-can__goods-list.row.no-gutters.justify-content-between
                 .col-auto 
                     +carried-item({icon: "med.svg"})
-                        | #{"Медицинское \nоборудование"}
+                        h4 #{"Медицинское \nоборудование"}
                 .col-auto 
                     +carried-item({icon: "sport.svg"})
-                        | #{"Спортивное \nоборудование"}
+                        h4 #{"Спортивное \nоборудование"}
                 .col-auto 
                     +carried-item({icon: "industr.svg"})
-                        | #{"Промышленное \nоборудование"}
+                        h4 #{"Промышленное \nоборудование"}
                 .col-auto 
                     +carried-item({icon: "clothes.svg"})
-                        | #{"Одежда \nи аксессуары"}
+                        h4 #{"Одежда \nи аксессуары"}
+
+                .col-12.hideon-xl
+
                 .col-auto 
                     +carried-item({icon: "parts.svg", height: "sm"})
-                        | Запчасти
+                        h4 Запчасти
                 .col-auto 
                     +carried-item({icon: "furniture.svg", height: "sm"})
-                        | Мебель
+                        h4 Мебель
                 .col-auto 
                     +carried-item({icon: "toys.svg", height: "sm"})
-                        | Игрушки
+                        h4 Игрушки
                 .col-auto 
                     +carried-item({icon: "led.svg", height: "sm"})
-                        | LED и светильники
+                        h4 LED и светильники
 
     section.we-can__block.col-12
