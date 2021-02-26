@@ -16,8 +16,18 @@
     text-align: center;
 }
 
-.about-us--cards-mt {
-    margin-top: 80px;
+.about-us__cards-block {
+    margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .about-us__cards-block {
+        margin-top: 24px;
+    }
+}
+
+.about-us--card-mt-md {
+    margin-top: 40px;
 }
 
 .about-us--mt-sm {
@@ -28,5 +38,12 @@
     letter-spacing: 0.4px;
 }
 
-.about-us--spacing {
+.about-us__work-with {
+    margin-top: 240px;
+}
+
+@media (max-width: 576px) {
+    .about-us__work-with {
+        margin-top: 160px;
+    }
 }
