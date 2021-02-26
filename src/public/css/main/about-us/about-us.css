@@ -1,0 +1,32 @@
+.about-us {
+    position: relative;
+
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+    background-color: yellowgreen;
+}
+
+.about-us__content {
+    z-index: 1;
+}
+
+.about-us__title {
+    max-width: 750px;
+    text-align: center;
+}
+
+.about-us--cards-mt {
+    margin-top: 80px;
+}
+
+.about-us--mt-sm {
+    margin-top: 16px;
+}
+
+.about-us--letterspacing-lg {
+    letter-spacing: 0.4px;
+}
+
+.about-us--spacing {
+}
