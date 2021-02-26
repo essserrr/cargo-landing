@@ -55,12 +55,25 @@ h1 {
     }
 }
 
-h5 {
+h4 {
     font-family: 'TT Travels Medium', Arial, sans-serif;
     letter-spacing: 0.2px;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
+    margin: 0;
+}
+
+@media (max-width: 575px) {
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 28px;
     margin: 0;
 }
 
@@ -72,16 +85,9 @@ h5 {
 }
 
 h6 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 0;
-}
-
-@media (max-width: 575px) {
-    h6 {
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
 
 .text--blue {
