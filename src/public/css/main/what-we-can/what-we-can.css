@@ -1,0 +1,36 @@
+.we-can {
+    background-color: #2b303e;
+}
+
+.we-can__block {
+    z-index: 1;
+}
+
+.we-can__team {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.we-can__team-title {
+    max-width: 229px;
+    color: #ffffff;
+}
+
+.we-can__team-description {
+    margin-top: 40px;
+    color: #ffffff;
+    max-width: 240px;
+}
+
+.we-can__team--mt-lg {
+    margin-top: 48px;
+}
+
+.we-can__team-perks {
+    padding-left: 64px;
+    margin-top: -40px;
+}
+
+.we-can__team-perks > .col-auto {
+    margin-top: 40px;
+}

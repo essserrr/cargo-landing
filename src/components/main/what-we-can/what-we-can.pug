@@ -1,1 +1,61 @@
-div what we can
+include ../../card-with-icon/card-with-icon.pug
+include ../../card-numbered/card-numbered.pug
+
+include ../../button/button.pug
+include ../../perk/perk.pug
+
+article.we-can.main-block.row.no-gutters
+    section.we-can__block.col-12
+        .we-can__team.row.no-gutters
+            .col-auto 
+                h3.we-can__team-title 
+                    | #{"Над какими "}
+                    i.text--green #{"еще "}
+                    | этапами работает команда
+                h6.we-can__team-description 
+                    | #{"Мы — логистическая компания полного цикла, обеспечивающая весь комплекс услуг по доставке грузов и товаров из Китая "}
+                    .hideon-sm
+                    | #{"в Россию с ориентацией "}
+                    .hideon-sm
+                    | #{"на потребности клиента "}
+                    .hideon-sm
+                    | и реализацию проектов любой сложности
+                .we-can__team--mt-lg
+                    +button({theme: "green", size: "sm", label: "рассчитать проект"})
+            .col
+                .we-can__team-perks.row.no-gutters.justify-content-between
+                    .col-auto 
+                        +perk({text: "условия поставки"})
+                    .col-auto 
+                        +perk({text: "протоколы испытаний"})
+                    .col-auto 
+                        +perk({text: "сертификация"})
+                    .col-auto 
+                        +perk({text: "отправка образцов"})
+                    .col-auto 
+                        +perk({text: "корректировка таможенной стоимости"})
+                    .col-auto 
+                        +perk({text: "ТН ВЭД"})
+                    .col-auto 
+                        +perk({text: "сбор \ndrop-off"})
+                    .col-auto 
+                        +perk({text: "простои"})
+                    .col-auto 
+                        +perk({text: "СВХ"})
+                    .col-auto 
+                        +perk({text: "обеспечение контракта"})
+                    .col-auto 
+                        +perk({text: "коносамент"})
+                    .col-auto 
+                        +perk({text: "таможенные риски"})
+                    .col-auto 
+                        +perk({text: "сроки поставки"})
+                    .col-auto 
+                        +perk({text: "CMR"})
+                    .col-auto 
+                        +perk({text: "маркировка"})
+                    .col-auto 
+                        +perk({text: "валютный контроль"})
+
+    section.we-can__block.col-12
+    section.we-can__block.col-12
