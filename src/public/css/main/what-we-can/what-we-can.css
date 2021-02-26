@@ -11,9 +11,22 @@
     padding-bottom: 120px;
 }
 
+@media (max-width: 576px) {
+    .we-can__team {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
 .we-can__team-title {
     max-width: 229px;
     color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .we-can__team-title {
+        max-width: unset;
+    }
 }
 
 .we-can__team-description {
@@ -22,8 +35,21 @@
     max-width: 240px;
 }
 
+@media (max-width: 576px) {
+    .we-can__team-description {
+        max-width: unset;
+        margin-top: 24px;
+    }
+}
+
 .we-can__team--mt-lg {
     margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+    .we-can__team--mt-lg {
+        margin-top: 32px;
+    }
 }
 
 .we-can__team-perks {
@@ -33,4 +59,20 @@
 
 .we-can__team-perks > .col-auto {
     margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .we-can__team-perks {
+        padding-left: 0px;
+        margin-top: 24px;
+    }
+    .we-can__team-perks > .col-auto {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .we-can__team-perks {
+        justify-content: center !important;
+    }
 }
