@@ -76,3 +76,15 @@
         justify-content: center !important;
     }
 }
+
+.we-can__goods {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.we-can__goods-title {
+    margin-left: 26px;
+    max-width: 943px;
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,8 +1,8 @@
-include ../../card-with-icon/card-with-icon.pug
 include ../../card-numbered/card-numbered.pug
 
 include ../../button/button.pug
 include ../../perk/perk.pug
+include ../../carried-item/carried-item.pug
 
 article.we-can.main-block.row.no-gutters
     section.we-can__block.col-12
@@ -61,4 +61,35 @@ article.we-can.main-block.row.no-gutters
                         +perk({text: "валютный контроль"})
 
     section.we-can__block.col-12
+        .we-can__goods
+            .row.no-gutters.justify-content-center
+                h1.we-can__goods-title
+                    | #{"Категории товаров, которые мы перевезли "}
+                    i.text--green в 2020 году
+            .row.no-gutters.justify-content-between
+                .col-auto 
+                    +carried-item({icon: "med.svg"})
+                        | #{"Медицинское \nоборудование"}
+                .col-auto 
+                    +carried-item({icon: "sport.svg"})
+                        | #{"Спортивное \nоборудование"}
+                .col-auto 
+                    +carried-item({icon: "industr.svg"})
+                        | #{"Промышленное \nоборудование"}
+                .col-auto 
+                    +carried-item({icon: "clothes.svg"})
+                        | #{"Одежда \nи аксессуары"}
+                .col-auto 
+                    +carried-item({icon: "parts.svg", height: "sm"})
+                        | Запчасти
+                .col-auto 
+                    +carried-item({icon: "furniture.svg", height: "sm"})
+                        | Мебель
+                .col-auto 
+                    +carried-item({icon: "toys.svg", height: "sm"})
+                        | Игрушки
+                .col-auto 
+                    +carried-item({icon: "led.svg", height: "sm"})
+                        | LED и светильники
+
     section.we-can__block.col-12
