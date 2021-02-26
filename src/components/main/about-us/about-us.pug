@@ -7,7 +7,7 @@ article.about-us.main-block.row.no-gutters
             h1.about-us__title Всё для успешного бизнеса с Китаем
 
         section.about-us__cards-block
-            .row.no-gutters.justify-content-between
+            .row.no-gutters.justify-content-center.justify-content-lg-between
                 .col-auto.about-us--card-mt-md
                     +card-with-icon({icon: "box.svg", margin: "sm", variant: "bordered"})
                         h4.about-us--letterspacing-lg Доставка грузов из Китая
@@ -43,15 +43,15 @@ article.about-us.main-block.row.no-gutters
 
         section.about-us__work-with
             .row.no-gutters.justify-content-between
-                .col-md-auto.col-12
+                .col-xl-auto.col-12
                     h1.about-us__description-title
-                        | Работа
-                        .hideon-sm
+                        | #{"Работа "}
+                        .hideon-xl
                         | с Oasis Logistics
                     h5.about-us__description Мы контролируем те процессы, о которых вам не следует задумываться, берем на себя все риски, связанные с доставкой, таможенной очисткой и валютными колебаниями
-                .about-us__client.col-md.col-12
+                .about-us__client.col-xl.col-12
                     .about-us__client-title Как видит заказчик
-                    .row.no-gutters.justify-content-between
+                    .row.no-gutters.justify-content-center.justify-content-sm-between
                         .col-auto.about-us__client-card-mt
                             +card-numbered({text: "оплата груза", number: "01",})
                         .col-auto.about-us__client-card-mt
