@@ -1,4 +1,5 @@
 include ../../card-with-icon/card-with-icon.pug
+include ../../card-numbered/card-numbered.pug
 
 article.about-us.main-block.row.no-gutters
     .about-us__content.col-12
@@ -41,3 +42,19 @@ article.about-us.main-block.row.no-gutters
                         h6.about-us--mt-sm Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
         section.about-us__work-with
+            .row.no-gutters.justify-content-between
+                .col-md-auto.col-12
+                    h1.about-us__description-title
+                        | Работа
+                        .hideon-sm
+                        | с Oasis Logistics
+                    h5.about-us__description Мы контролируем те процессы, о которых вам не следует задумываться, берем на себя все риски, связанные с доставкой, таможенной очисткой и валютными колебаниями
+                .about-us__client.col-md.col-12
+                    .about-us__client-title Как видит заказчик
+                    .row.no-gutters.justify-content-between
+                        .col-auto.about-us__client-card-mt
+                            +card-numbered({text: "оплата груза", number: "01",})
+                        .col-auto.about-us__client-card-mt
+                            +card-numbered({text: "перевозка через границу ", number: "02",})
+                        .col-auto.about-us__client-card-mt
+                            +card-numbered({text: "доставка по РФ", number: "03",})

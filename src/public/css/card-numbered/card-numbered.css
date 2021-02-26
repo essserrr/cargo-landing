@@ -1,0 +1,39 @@
+.card-numbered {
+    background: #7370ff;
+    color: #ffffff;
+}
+
+.card-numbered.card-numbered--sm {
+    min-width: 240px;
+    min-height: 120px;
+
+    backdrop-filter: blur(40px);
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-numbered.card-numbered--sm .card-numbered__text {
+    max-width: 134px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.card-numbered.card-numbered--sm .card-numbered__number {
+    position: absolute;
+
+    width: 48px;
+    height: 48px;
+
+    top: -24px;
+    left: 24px;
+
+    background-color: #ffffff;
+
+    border-radius: 50%;
+    border: solid 2px #7370ff;
+
+    color: #7370ff;
+}

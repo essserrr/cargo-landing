@@ -3,8 +3,6 @@
 
     padding-top: 120px;
     padding-bottom: 80px;
-
-    background-color: yellowgreen;
 }
 
 .about-us__content {
@@ -46,4 +44,34 @@
     .about-us__work-with {
         margin-top: 160px;
     }
+}
+
+.about-us__description {
+    margin-top: 48px;
+    max-width: 440px;
+}
+
+.about-us__description-title {
+    max-width: 491px;
+}
+
+.about-us__client {
+    max-width: 800px;
+}
+
+.about-us__client-title {
+    margin-top: 96px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #bdbdbd;
+}
+
+.about-us__client-card-mt {
+    margin-top: 56px;
 }
