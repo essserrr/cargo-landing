@@ -17,3 +17,17 @@
 
     white-space: pre-line;
 }
+
+@media (max-width: 576px) {
+    .perk {
+        min-width: 160px;
+        min-height: 120px;
+    }
+
+    .perk__description {
+        max-width: 108px;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
