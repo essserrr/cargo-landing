@@ -58,7 +58,7 @@
         min-width: unset;
         min-height: unset;
 
-        padding: 48px 40px 38px 48px;
+        padding: 48px 40px 48px 40px;
 
         background: rgba(255, 255, 255, 0.35);
         backdrop-filter: blur(40px);

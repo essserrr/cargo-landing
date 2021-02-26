@@ -5,6 +5,12 @@
     padding-bottom: 80px;
 }
 
+@media (max-width: 576px) {
+    .about-us {
+        padding-top: 80px;
+    }
+}
+
 .about-us__content {
     z-index: 1;
 }
@@ -24,16 +30,19 @@
     }
 }
 
-.about-us--card-mt-md {
+.about-us__feature {
     margin-top: 40px;
 }
 
-.about-us--mt-sm {
+.about-us__feature-descr {
     margin-top: 16px;
 }
 
-.about-us--letterspacing-lg {
+.about-us__feature-title {
     letter-spacing: 0.4px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .about-us__work-with {
@@ -58,6 +67,7 @@
 @media (max-width: 1199px) {
     .about-us__description {
         max-width: unset;
+        margin-top: 24px;
     }
 
     .about-us__description-title {
@@ -92,6 +102,14 @@
     text-transform: uppercase;
 
     color: #bdbdbd;
+}
+
+@media (max-width: 576px) {
+    .about-us__client-title {
+        margin-top: 48px;
+
+        text-align: center;
+    }
 }
 
 .about-us__client-card-mt {

@@ -8,38 +8,50 @@ article.about-us.main-block.row.no-gutters
 
         section.about-us__cards-block
             .row.no-gutters.justify-content-center.justify-content-lg-between
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "box.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg Доставка грузов из Китая
-                        h6.about-us--mt-sm Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
+                        h4.about-us__feature-title 
+                            | #{"Доставка грузов "}
+                            .showon-sm
+                            | из Китая
+                        h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "case.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg Таможенное оформление и сертификация грузов
-                        h6.about-us--mt-sm Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
+                        h4.about-us__feature-title 
+                            | #{"Таможенное оформление "}
+                            .showon-sm
+                            | и сертификация грузов
+                        h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "search.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg 
-                            | Поиск поставщиков
+                        h4.about-us__feature-title 
+                            | #{"Поиск поставщиков "}
                             .hideon-sm
                             | и товаров
-                        h6.about-us--mt-sm Найдем необходимого поставщика товара в Китае и организуем поставку.
+                        h6.about-us__feature-descr Найдем необходимого поставщика товара в Китае и организуем поставку.
 
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "placing.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg Размещение OEM/ODM производства в Китае
-                        h6.about-us--mt-sm Мы способны найти фабрику, которая сможет разработать, произвести товар под вашим логотипом, по вашим формам и характеристикам.
+                        h4.about-us__feature-title 
+                            | Размещение OEM/
+                            .showon-sm
+                            | ODM производства в Китае
+                        h6.about-us__feature-descr Мы способны найти фабрику, которая сможет разработать, произвести товар под вашим логотипом, по вашим формам и характеристикам.
 
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "tao.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg Выкуп и доставка товаров с Taobao, Alibaba, 1688
-                        h6.about-us--mt-sm Наша компания также осуществляет, выкуп и доставку с торговых площадок Китая.
+                        h4.about-us__feature-title Выкуп и доставка товаров с Taobao, Alibaba, 1688
+                        h6.about-us__feature-descr Наша компания также осуществляет, выкуп и доставку с торговых площадок Китая.
 
-                .col-auto.about-us--card-mt-md
+                .col-auto.about-us__feature
                     +card-with-icon({icon: "check.svg", margin: "sm", variant: "bordered"})
-                        h4.about-us--letterspacing-lg Инспектирование фабрик и поставщиков товара
-                        h6.about-us--mt-sm Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
+                        h4.about-us__feature-title 
+                            | #{"Инспектирование фабрик "}
+                            .showon-sm
+                            | и поставщиков товара
+                        h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
         section.about-us__work-with
             .row.no-gutters.justify-content-between
@@ -47,6 +59,7 @@ article.about-us.main-block.row.no-gutters
                     h1.about-us__description-title
                         | #{"Работа "}
                         .hideon-xl
+                        .showon-sm
                         | с Oasis Logistics
                     h5.about-us__description Мы контролируем те процессы, о которых вам не следует задумываться, берем на себя все риски, связанные с доставкой, таможенной очисткой и валютными колебаниями
                 .about-us__client.col-xl.col-12
