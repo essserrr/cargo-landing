@@ -4,6 +4,10 @@
     border: none;
 }
 
+.button.button.button--sm {
+    min-width: 256px;
+}
+
 .button:focus {
     outline: none;
 }
@@ -19,6 +23,10 @@
 
 .button.button--md {
     padding: 20px 54px 20px 55px;
+}
+
+.button.button--sm {
+    padding: 20px 47px 20px 47px;
 }
 
 .button.button--blue {
