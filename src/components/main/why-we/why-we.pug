@@ -2,6 +2,20 @@ include ../../card-numbered/card-numbered.pug
 
 article.why-we.main-block.row.no-gutters
     section.why-we__block.col-12
-        .why-we__reasons.row.no-gutters.justify-content-center
-            h1.why-we__reasons-title
-                | #{"Почему стоит обратиться в Oasis Logistics"}
+        .why-we__reasons
+            .row.no-gutters.justify-content-center
+                h1.why-we__reasons-title
+                    | #{"Почему стоит обратиться в Oasis Logistics"}
+            .why-we__reasons-list.row.no-gutters.justify-content-between
+                .col-auto
+                    +card-numbered({text: "Подберем оптимальный \nпо стоимости и срокам \nмаршрут", number: "01", variant: "md"})
+                .col-auto
+                    +card-numbered({text: "Зафиксируем ставку \nпо контракту, независимо \nот внешних факторов", number: "02", variant: "md"})
+                .col-auto
+                    +card-numbered({text: "Осуществим перевод денежных средств в Китай через свою компанию", number: "03", variant: "md"})
+                .col-auto
+                    +card-numbered({text: "Организуем вывоз товара \nот вашего поставщика", number: "04", variant: "md"})
+                .col-auto
+                    +card-numbered({text: "Подготовим документы \nдля таможенной очистки", number: "05", variant: "md"})
+                .col-auto
+                    +card-numbered({text: "Организуем доставку \nтовара по РФ", number: "06", variant: "md"})

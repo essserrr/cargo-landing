@@ -9,5 +9,12 @@
 .why-we__reasons-title {
     max-width: 759px;
 
+    margin-left: 10px;
+    margin-bottom: 40px;
+
     text-align: center;
+}
+
+.why-we__reasons-list .col-auto {
+    margin-top: 72px;
 }
