@@ -1,20 +1,43 @@
 .delivery-type {
-    width: 440px;
-    height: 324px;
+    min-width: 440px;
+    max-width: 440px;
+    min-height: 324px;
 
     padding: 82px 56px 40px 54px;
 
     background-color: transparent;
     border: 3px dotted rgb(255, 255, 255, 0.15);
     border-radius: 24px;
-    color: #ffffff;
+    color: #f2f2f2;
 }
 
-.delivery-type__text-block {
+@media (max-width: 576px) {
+    .delivery-type {
+        min-width: unset;
+        padding: 70px 40px 45px 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery-type__text-block {
+        margin-left: -2px;
+    }
 }
 
 .delivery-type__descr {
     margin-top: 16px;
+}
+
+@media (max-width: 576px) {
+    .delivery-type__title {
+        font-family: 'TT Travels', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .delivery-type__descr {
+        white-space: pre-line;
+    }
 }
 
 .delivery-type__icon-block {
@@ -30,6 +53,25 @@
     border-radius: 50%;
 }
 
+.delivery-type__icon {
+    width: 48px;
+    height: 48px;
+}
+
+@media (max-width: 576px) {
+    .delivery-type__icon-block {
+        width: 80px;
+        height: 80px;
+
+        top: -38px;
+        left: 40px;
+    }
+    .delivery-type__icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 .delivery-type__sticker {
     margin-top: 21px;
     margin-left: -2px;
@@ -42,6 +84,13 @@
 
 .delivery-type__sticker h5 {
     font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .delivery-type__sticker h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 .delivery-type__rotate-clockwise {
