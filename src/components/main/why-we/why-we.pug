@@ -1,4 +1,5 @@
 include ../../card-numbered/card-numbered.pug
+include ../../review/review.pug
 
 article.why-we.main-block.row.no-gutters
     section.why-we__block.col-12
@@ -19,3 +20,15 @@ article.why-we.main-block.row.no-gutters
                     +card-numbered({text: "Подготовим документы \nдля таможенной очистки", number: "05", variant: "md"})
                 .col-auto
                     +card-numbered({text: "Организуем доставку \nтовара по РФ", number: "06", variant: "md"})
+    section.why-we__block.col-12
+        .why-we__reviews
+            .row.no-gutters.justify-content-center
+                h1.why-we__reviews-title
+                    | #{"Отзывы о работе с Oasis Logistics"}
+
+            .why-we__map
+                include ../../../public/map/map.svg
+
+            .why-we__riview-row.row.no-gutters.justify-content-end
+                .why-we__riview-container
+                    +review({showMore: true, avatar: "avatar1.png", name: "Александра Гуриева", place: "ООО «А-А-А», г. Москва", text: "На самом деле наша поездка изначально была очень спонтанной и сложной, буквально накануне вылета из Москвы в Гонконг мы вышли на ребят, договорились о встрече и сопровождении нас по разным производствам в течение всего пребывания в Китае. Как оказалось, в первый же день знакомства, нам просто нереально повезло что складывается все именно так, как складывается."})
