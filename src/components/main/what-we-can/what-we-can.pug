@@ -1,8 +1,8 @@
 include ../../card-numbered/card-numbered.pug
-
 include ../../button/button.pug
 include ../../perk/perk.pug
 include ../../carried-item/carried-item.pug
+include ../../delivery-type/delivery-type.pug
 
 article.we-can.main-block.row.no-gutters
     section.we-can__block.col-12
@@ -99,3 +99,14 @@ article.we-can.main-block.row.no-gutters
                         h4 LED и светильники
 
     section.we-can__block.col-12
+        .we-can__deliv
+            .row.no-gutters.justify-content-center
+                h1.we-can__deliv-title
+                    | #{"Доставляем грузы \nпо земле, воздуху и воде"}
+            .we-can__deliv-list.row.no-gutters.justify-content-between
+                .col-auto 
+                    +delivery-type({title: "Авиаперевозки", text: "Пожалуй, самый быстрый способ доставки из предствленных.", icon: "plane.png", sticker: "4 -- 12 $/кг"})
+                .col-auto 
+                    +delivery-type({title: "Ж/д перевозки", text: "Пожалуй, самый надежный способ доставки из предствленных.", icon: "train.png", rotate: "counterclockwise", sticker: "3 -- 9 $/кг"})
+                .col-auto 
+                    +delivery-type({title: "Морские", text: "Пожалуй, самый дешевый способ доставки из предствленных.", icon: "ship.png", sticker: "2 -- 7 $/кг"})

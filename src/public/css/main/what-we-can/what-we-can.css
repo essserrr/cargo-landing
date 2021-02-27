@@ -116,6 +116,12 @@
     }
 }
 
+@media (max-width: 320px) {
+    .we-can__goods-list {
+        justify-content: center !important;
+    }
+}
+
 .we-can__goods-list > .col-auto:nth-of-type(1) {
     padding-left: 38px;
 }
@@ -153,4 +159,24 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+}
+
+.we-can__deliv {
+    padding-top: 122px;
+    padding-bottom: 120px;
+}
+
+.we-can__deliv-title {
+    max-width: 740px;
+
+    margin-left: 24px;
+
+    text-align: center;
+    color: #ffffff;
+
+    white-space: pre-line;
+}
+
+.we-can__deliv-list {
+    margin-top: 131px;
 }
