@@ -63,8 +63,48 @@
     left: -176px;
 }
 
+@media (max-width: 1199px) {
+    .why-we__map {
+        left: -50px;
+    }
+}
+
+@media (max-width: 968px) {
+    .why-we__map {
+        top: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-we__map {
+        top: 150px;
+    }
+}
+
+.why-we__map svg {
+    max-width: 100vw;
+}
+
 .why-we__riview-row {
     margin-top: 96px;
+}
+
+@media (max-width: 1199px) {
+    .why-we__riview-row {
+        margin-top: 580px;
+    }
+}
+
+@media (max-width: 968px) {
+    .why-we__riview-row {
+        margin-top: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-we__riview-row {
+        margin-top: 420px;
+    }
 }
 
 .why-we__review-container {
