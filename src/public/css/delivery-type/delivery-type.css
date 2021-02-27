@@ -1,0 +1,61 @@
+.delivery-type {
+    width: 440px;
+    height: 324px;
+
+    padding: 82px 56px 40px 54px;
+
+    background-color: transparent;
+    border: 3px dotted rgb(255, 255, 255, 0.15);
+    border-radius: 24px;
+    color: #ffffff;
+}
+
+.delivery-type__text-block {
+}
+
+.delivery-type__descr {
+    margin-top: 16px;
+}
+
+.delivery-type__icon-block {
+    position: absolute;
+
+    width: 104px;
+    height: 104px;
+
+    top: -52px;
+    left: 56px;
+
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.delivery-type__sticker {
+    margin-top: 21px;
+    margin-left: -2px;
+
+    width: 160px;
+    height: 64px;
+
+    background-image: url('/css/icons/sticker.png');
+}
+
+.delivery-type__sticker h5 {
+    font-weight: 600;
+}
+
+.delivery-type__rotate-clockwise {
+    transform: rotate(2.05deg);
+}
+
+.delivery-type__rotate-clockwise h5 {
+    transform: rotate(-2.05deg);
+}
+
+.delivery-type__rotate-counterclockwise {
+    transform: rotate(-4.29deg);
+}
+
+.delivery-type__rotate-counterclockwise h5 {
+    transform: rotate(4.29deg);
+}
