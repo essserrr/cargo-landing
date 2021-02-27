@@ -5,7 +5,7 @@ mixin card-numbered(props)
     - const cardVariant = ` card-numbered--${variant}`;
 
     div(
-        class=`row no-gutters align-items-center justify-content-center card-numbered${cardVariant}${cardBody}`
+        class=`row no-gutters align-items-center card-numbered${cardVariant}${cardBody}${variant === "md" ? "" : " justify-content-center"}`
     ) 
         .card-numbered__text #{text}
         .card-numbered__number.row.no-gutters.align-items-center.justify-content-center 
