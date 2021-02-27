@@ -1,5 +1,8 @@
 .review {
-    max-width: 440px;
+    max-width: 488px;
+
+    margin-top: 16px !important;
+    margin-right: 48px !important;
 
     background: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(40px);
