@@ -1,1 +1,13 @@
-div why we
+.why-we__block {
+    z-index: 1;
+}
+.why-we__reasons {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.why-we__reasons-title {
+    max-width: 759px;
+
+    text-align: center;
+}
