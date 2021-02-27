@@ -51,10 +51,33 @@
     line-height: 28px;
 }
 
+@media (max-width: 576px) {
+    .card-numbered.card-numbered--md {
+        min-width: 343px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card-numbered.card-numbered--md {
+        min-width: unset;
+    }
+}
+
 .card-numbered.card-numbered--md .card-numbered__text {
     max-width: 348px;
     letter-spacing: 0.1px;
     white-space: pre-line;
+}
+
+@media (max-width: 576px) {
+    .card-numbered.card-numbered--md .card-numbered__text {
+        max-width: 263px;
+
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        white-space: pre-line;
+    }
 }
 
 .card-numbered.card-numbered--md .card-numbered__number {
@@ -71,5 +94,8 @@
     border-radius: 50%;
     border: solid 4px #7370ff;
 
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
     color: #7370ff;
 }

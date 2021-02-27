@@ -6,6 +6,13 @@
     padding-bottom: 120px;
 }
 
+@media (max-width: 968px) {
+    .why-we__reasons {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
 .why-we__reasons-title {
     max-width: 759px;
 
@@ -15,6 +22,26 @@
     text-align: center;
 }
 
+@media (max-width: 968px) {
+    .why-we__reasons-title {
+        margin-left: 0px;
+        margin-bottom: 32px;
+        white-space: pre-line;
+    }
+}
+
 .why-we__reasons-list .col-auto {
     margin-top: 72px;
+}
+
+@media (max-width: 968px) {
+    .why-we__reasons-list {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 968px) {
+    .why-we__reasons-list .col-auto {
+        margin-top: 64px;
+    }
 }
