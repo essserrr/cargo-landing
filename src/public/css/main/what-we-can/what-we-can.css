@@ -207,3 +207,12 @@
         margin-top: 80px;
     }
 }
+
+.we-can__button-row {
+    margin-top: 64px;
+}
+@media (max-width: 576px) {
+    .we-can__button-row {
+        margin-top: 48px;
+    }
+}
