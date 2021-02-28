@@ -1,6 +1,8 @@
 .main-block {
     padding-left: 256px;
     padding-right: 264px;
+
+    overflow: hidden;
 }
 
 @media (max-width: 1800px) {
