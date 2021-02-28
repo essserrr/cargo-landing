@@ -1,0 +1,5 @@
+mixin s-media(props)
+    - const { icon, link } = props;
+
+    a.s-media(href=link) 
+        img(src=`/css/icons/${icon}.svg`, alt=icon)

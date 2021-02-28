@@ -1,0 +1,25 @@
+.s-media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+
+    background: #7370ff;
+}
+
+.s-media:hover {
+    background: linear-gradient(
+            0deg,
+            rgba(43, 48, 62, 0.03),
+            rgba(43, 48, 62, 0.03)
+        ),
+        #6dfe3b;
+}
