@@ -11,22 +11,39 @@
     overflow: hidden;
 }
 
+.delivery__block {
+    z-index: 2;
+}
+
 @media (max-width: 1199px) {
     .delivery {
         padding-bottom: 0px;
     }
 
-    .delivery__block {
+    .delivery__block-off {
         width: 100%;
         height: 500px;
 
         overflow: hidden;
+        z-index: 1;
     }
 }
 
 @media (max-width: 768px) {
-    .delivery__block {
+    .delivery__block-off {
         overflow: unset;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery__block-off {
+        height: 380px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery {
+        padding-top: 80px;
     }
 }
 
@@ -45,12 +62,43 @@
     max-width: 723px;
 }
 
+@media (max-width: 576px) {
+    .delivery__form-block {
+        margin-top: 24px;
+    }
+}
+
 .delivery__emblem {
     position: absolute;
 
     top: 70px;
     left: 214px;
     z-index: 4;
+}
+
+@media (max-width: 1439px) {
+    .delivery__emblem {
+        top: 50px;
+        left: 100px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .delivery__emblem {
+        left: calc(50% - 150px);
+    }
+}
+
+@media (max-width: 768px) {
+    .delivery__emblem {
+        left: calc(50% - 150px);
+    }
+}
+@media (max-width: 576px) {
+    .delivery__emblem {
+        top: 55px;
+        left: 18px;
+    }
 }
 
 .delivery__ticker-line-1 {
@@ -87,11 +135,6 @@
 }
 
 @media (max-width: 1439px) {
-    .delivery__emblem {
-        top: 50px;
-        left: 100px;
-    }
-
     .delivery__ticker-line-1 {
         left: -300px;
         top: 220px;
@@ -109,10 +152,6 @@
 }
 
 @media (max-width: 1199px) {
-    .delivery__emblem {
-        left: calc(50% - 150px);
-    }
-
     .delivery__ticker-line-1 {
         left: -220px;
     }
@@ -128,10 +167,6 @@
 }
 
 @media (max-width: 768px) {
-    .delivery__emblem {
-        left: calc(50% - 150px);
-    }
-
     .delivery__ticker-line-1 {
         transform: rotate(-21.77deg);
 
@@ -149,5 +184,25 @@
         transform: rotate(-15.96deg);
         top: 0px;
         left: -120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery__ticker-line-1 {
+        transform: rotate(-21.77deg);
+
+        top: 108px;
+        left: -120px;
+    }
+
+    .delivery__ticker-line-2 {
+        transform: rotate(-37.21deg);
+        top: -118px;
+        left: -220px;
+    }
+
+    .delivery__ticker-line-3 {
+        transform: rotate(-15.96deg);
+        top: -38px;
     }
 }
