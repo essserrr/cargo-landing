@@ -1,0 +1,9 @@
+mixin input(props)
+    - const { placeholder, defaultVal, checkType, theme = "light" } = props;
+    - const inputTheme = ` input--theme-${theme}`;
+
+    input(
+        class=`col-12 input${inputTheme}`,
+        placeholder=placeholder,
+        value=defaultVal
+    )
