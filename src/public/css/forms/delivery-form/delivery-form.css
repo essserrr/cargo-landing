@@ -2,16 +2,43 @@
     margin-top: 32px;
 }
 
+@media (max-width: 576px) {
+    .delivery-form__item {
+        margin-top: 16px;
+    }
+}
+
 .delivery-form__button {
     margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+    .delivery-form__button {
+        margin-top: 32px;
+    }
 }
 
 .delivery-form__input-list {
     max-width: 640px;
 }
 
+@media (max-width: 576px) {
+    .delivery-form__input-list {
+        justify-content: center;
+    }
+}
+
 .delivery-form__agreement {
     margin-top: 48px;
     padding-top: 12px;
     max-width: 383px;
+}
+
+@media (max-width: 576px) {
+    .delivery-form__agreement {
+        margin-left: -10px;
+        margin-top: 24px;
+        padding-top: 0px;
+        max-width: 290px;
+    }
 }

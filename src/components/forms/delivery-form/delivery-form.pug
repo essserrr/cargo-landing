@@ -2,8 +2,10 @@ include ../../input/input.pug
 include ../../button/button.pug
 include ../../checkbox/checkbox.pug
 
-form#form-delivery.row.no-gutters.justify-content-between(action='#')
-    .row.no-gutters.justify-content-between.delivery-form__input-list
+form#form-delivery.row.no-gutters.justify-content-center.justify-content-md-between(
+    action='#'
+)
+    .row.no-gutters.justify-content-center.justify-content-md-between.delivery-form__input-list
         .col-auto.delivery-form__item 
             +input({placeholder: "имя", check: "validate[required]"})
         .col-auto.delivery-form__item 
