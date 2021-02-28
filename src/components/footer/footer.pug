@@ -1,2 +1,42 @@
-.row.no-gutters
-    .col-12.text-center iam footer
+include ../text-button/text-button.pug
+include ../s-media/s-media.pug
+
+.footer.row.no-gutters
+    .col-12
+        .row.no-gutters.justify-content-start.justify-content-sm-center.justify-content-xl-between
+            .footer__adress.col-12.col-xl-auto 675000, Благовещенск ул. Ленина, 113, офис 404
+
+            .footer__mailto-col.col-12.col-xl-auto.d-flex.align-items-center.justify-content-start.justify-content-sm-center
+                img(src='/css/icons/mailto.svg')
+                a.footer__anchor.footer__mailto(
+                    href='mailto:info@oasislogistics.ru'
+                ) info@oasislogistics.ru
+
+            .footer__smedia-row.col-12.col-xl-auto.d-flex.justify-content-start.justify-content-sm-center
+                +s-media({icon: "vk", link: "https://vk.com"})
+                .footer--smedia-margin
+                    +s-media({icon: "facebook", link: "https://facebook.com"})
+                .footer--smedia-margin
+                    +s-media({icon: "instagram", link: "https://instagram.com"})
+
+            .footer__phone.col-12.col-xl-auto.text-left.text-sm-center.text-xl-right
+                h4 +7 (963) 800-57-52
+                .footer--feedback-margin
+                    +text-button({label: "Обратный звонок"})
+
+    .footer__credits-row.col-12 
+        .row.no-gutters.justify-content-start.justify-content-sm-center.justify-content-xl-between
+            .footer__copyright.col-12.col-xl-auto.text-left.text-sm-center © 2021 «Oasis Logistics»
+
+            .col-12.col-xl-auto.footer__policy.d-flex.justify-content-start.justify-content-sm-center
+                +text-button({label: "Политика конфиденциальности", variant: "default"})
+
+            .col-12.col-xl-auto.footer__data.d-flex.justify-content-start.justify-content-sm-center
+                +text-button({label: "Положение о персональных данных", variant: "default"})
+
+            .footer__credits.col-12.col-xl-auto.text-left.text-sm-center.text-xl-right
+                | #{"Разработано  в "}
+                a.footer__anchor(href='#') SP-Artgroup
+                br
+                | #{"при поддержке "}
+                a.footer__anchor(href='#') «Мой бизнес»
