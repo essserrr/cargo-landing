@@ -1,8 +1,14 @@
 mixin checkbox(props)
-    - const { label } = props;
+    - const { check, name, label, checked = false } = props;
     - const inputTheme = ` input--theme-${theme}`;
+    - const checkType = check ? ` ${check}` : "";
 
     label.checkbox
-        input(type='checkbox')
+        input(
+            type='checkbox',
+            class=`${checkType}`,
+            checked=checked ? "checked" : false,
+            name=name
+        )
         span.checkbox__checkmark
         .checkbox__text  #{label}
