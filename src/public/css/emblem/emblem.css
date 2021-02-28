@@ -16,8 +16,22 @@
     border-radius: 50%;
 }
 
+.emblem__text {
+    position: absolute;
+
+    top: calc(50% - 70 / 2);
+    left: calc(50% - 134 / 2);
+
+    font-family: 'TT Travels Medium', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 78px;
+    color: #ffffff;
+}
+
 .emblem__lettering {
     display: block;
+    position: relative;
 
     width: 100%;
     height: 100%;
@@ -27,10 +41,41 @@
     line-height: 29px;
     letter-spacing: 0.01em;
     color: #ffffff;
+
+    -webkit-animation: spin 180s linear infinite;
+    -moz-animation: spin 180s linear infinite;
+    animation: spin 180s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.emblem__absolute-lettering-container {
+    position: absolute;
+    left: 142px;
+    top: 10px;
+}
+
+.emblem__relative-lettering-container {
+    position: relative;
 }
 
 .emblem__lettering span {
-    height: 270px;
+    height: 272px;
 
     position: absolute;
     transform-origin: 50% 50%;
