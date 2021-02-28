@@ -1,12 +1,18 @@
 include ../../input/input.pug
 include ../../button/button.pug
+include ../../checkbox/checkbox.pug
 
 form.row.no-gutters.justify-content-between
-    .col-auto.delivery-form__item 
-        +input({placeholder: "имя"})
-    .col-auto.delivery-form__item 
-        +input({placeholder: "номер телефона"})
-    .col-auto.delivery-form__item 
-        +input({placeholder: "город получателя"})
-    .col-auto.delivery-form__item 
-        +input({placeholder: "описание груза"})
+    .row.no-gutters.justify-content-between.delivery-form__input-list
+        .col-auto.delivery-form__item 
+            +input({placeholder: "имя"})
+        .col-auto.delivery-form__item 
+            +input({placeholder: "номер телефона"})
+        .col-auto.delivery-form__item 
+            +input({placeholder: "город получателя"})
+        .col-auto.delivery-form__item 
+            +input({placeholder: "описание груза"})
+    .col-auto.delivery-form__button 
+        +button({label: "заказать доставку"})
+    .col-auto.delivery-form__agreement
+        +checkbox({label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных"})

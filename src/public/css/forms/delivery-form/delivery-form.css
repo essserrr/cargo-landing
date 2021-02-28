@@ -1,3 +1,17 @@
 .delivery-form__item {
     margin-top: 32px;
 }
+
+.delivery-form__button {
+    margin-top: 48px;
+}
+
+.delivery-form__input-list {
+    max-width: 640px;
+}
+
+.delivery-form__agreement {
+    margin-top: 48px;
+    padding-top: 12px;
+    max-width: 383px;
+}
