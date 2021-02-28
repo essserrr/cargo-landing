@@ -1,0 +1,256 @@
+.emblem {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 293.58px;
+    height: 293.58px;
+
+    background: #7370ff;
+
+    border-radius: 50%;
+}
+
+.emblem__lettering {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    font-weight: 600;
+    font-size: 19.5721px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+.emblem__lettering span {
+    height: 270px;
+
+    position: absolute;
+    transform-origin: 50% 50%;
+
+    transform: translate(50%);
+}
+
+.emblem__lettering .char1 {
+    transform: rotate(6.4deg);
+}
+.emblem__lettering .char2 {
+    transform: rotate(12.8deg);
+}
+.emblem__lettering .char3 {
+    transform: rotate(19.2deg);
+}
+.emblem__lettering .char4 {
+    transform: rotate(25.6deg);
+}
+.emblem__lettering .char5 {
+    transform: rotate(32deg);
+}
+.emblem__lettering .char6 {
+    transform: rotate(38.4deg);
+}
+.emblem__lettering .char7 {
+    transform: rotate(44deg);
+    height: 284px;
+}
+.emblem__lettering .char8 {
+    transform: rotate(51.2deg);
+}
+.emblem__lettering .char9 {
+    transform: rotate(57.6deg);
+}
+.emblem__lettering .char10 {
+    transform: rotate(64deg);
+}
+.emblem__lettering .char11 {
+    transform: rotate(70.4deg);
+}
+.emblem__lettering .char12 {
+    transform: rotate(76.8deg);
+}
+.emblem__lettering .char13 {
+    transform: rotate(83.2deg);
+}
+.emblem__lettering .char14 {
+    transform: rotate(88deg);
+    height: 278px;
+}
+.emblem__lettering .char15 {
+    transform: rotate(96deg);
+}
+.emblem__lettering .char16 {
+    transform: rotate(102.4deg);
+}
+.emblem__lettering .char17 {
+    transform: rotate(108.8deg);
+}
+.emblem__lettering .char18 {
+    transform: rotate(115.2deg);
+}
+.emblem__lettering .char19 {
+    transform: rotate(121.6deg);
+}
+.emblem__lettering .char20 {
+    transform: rotate(128deg);
+}
+.emblem__lettering .char21 {
+    transform: rotate(133deg);
+    height: 274px;
+}
+.emblem__lettering .char22 {
+    transform: rotate(140.8deg);
+}
+.emblem__lettering .char23 {
+    transform: rotate(147.2deg);
+}
+.emblem__lettering .char24 {
+    transform: rotate(153.6deg);
+}
+.emblem__lettering .char25 {
+    transform: rotate(160deg);
+}
+.emblem__lettering .char26 {
+    transform: rotate(166.4deg);
+}
+.emblem__lettering .char27 {
+    transform: rotate(172.8deg);
+}
+.emblem__lettering .char28 {
+    transform: rotate(177.8deg);
+    height: 270px;
+}
+.emblem__lettering .char29 {
+    transform: rotate(185.6deg);
+}
+.emblem__lettering .char30 {
+    transform: rotate(192deg);
+}
+.emblem__lettering .char31 {
+    transform: rotate(198.4deg);
+}
+.emblem__lettering .char32 {
+    transform: rotate(204.8deg);
+}
+.emblem__lettering .char33 {
+    transform: rotate(211.2deg);
+}
+.emblem__lettering .char34 {
+    transform: rotate(217.6deg);
+}
+.emblem__lettering .char35 {
+    transform: rotate(222deg);
+
+    height: 268px;
+}
+.emblem__lettering .char36 {
+    transform: rotate(230.4deg);
+}
+.emblem__lettering .char37 {
+    transform: rotate(236.8deg);
+}
+.emblem__lettering .char38 {
+    transform: rotate(243.2deg);
+}
+.emblem__lettering .char39 {
+    transform: rotate(249.6deg);
+}
+.emblem__lettering .char40 {
+    transform: rotate(256deg);
+}
+.emblem__lettering .char41 {
+    transform: rotate(262.4deg);
+}
+.emblem__lettering .char42 {
+    transform: rotate(267.5deg);
+    height: 264px;
+}
+.emblem__lettering .char43 {
+    transform: rotate(275.2deg);
+}
+.emblem__lettering .char44 {
+    transform: rotate(281.6deg);
+}
+.emblem__lettering .char45 {
+    transform: rotate(288deg);
+}
+.emblem__lettering .char46 {
+    transform: rotate(294.4deg);
+}
+.emblem__lettering .char47 {
+    transform: rotate(300.8deg);
+}
+.emblem__lettering .char48 {
+    transform: rotate(307.2deg);
+}
+.emblem__lettering .char49 {
+    transform: rotate(313.6deg);
+    height: 260px;
+}
+.emblem__lettering .char50 {
+    transform: rotate(320deg);
+}
+.emblem__lettering .char51 {
+    transform: rotate(326.4deg);
+}
+.emblem__lettering .char52 {
+    transform: rotate(332.8deg);
+}
+.emblem__lettering .char53 {
+    transform: rotate(339.2deg);
+}
+.emblem__lettering .char54 {
+    transform: rotate(345.6deg);
+}
+.emblem__lettering .char55 {
+    transform: rotate(352deg);
+}
+.emblem__lettering .char56 {
+    transform: rotate(361deg);
+    height: 268px;
+}
+.emblem__lettering .char57 {
+    transform: rotate(364.8deg);
+}
+.emblem__lettering .char58 {
+    transform: rotate(371.2deg);
+}
+.emblem__lettering .char59 {
+    transform: rotate(377.6deg);
+}
+.emblem__lettering .char60 {
+    transform: rotate(384deg);
+}
+.emblem__lettering .char61 {
+    transform: rotate(390.4deg);
+}
+.emblem__lettering .char62 {
+    transform: rotate(396.8deg);
+}
+.emblem__lettering .char63 {
+    transform: rotate(403.2deg);
+}
+.emblem__lettering .char64 {
+    transform: rotate(409.6deg);
+}
+.emblem__lettering .char65 {
+    transform: rotate(416deg);
+}
+.emblem__lettering .char66 {
+    transform: rotate(422.4deg);
+}
+.emblem__lettering .char67 {
+    transform: rotate(428.8deg);
+}
+.emblem__lettering .char68 {
+    transform: rotate(435.2deg);
+}
+.emblem__lettering .char69 {
+    transform: rotate(441.6deg);
+}
