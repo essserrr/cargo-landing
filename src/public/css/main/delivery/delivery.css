@@ -1,0 +1,19 @@
+.delivery {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    position: relative;
+    background-image: url(/backgrounds/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.delivery__title {
+    max-width: 588px;
+}
+
+.delivery__form-block {
+    margin-top: 16px;
+    max-width: 723px;
+}
