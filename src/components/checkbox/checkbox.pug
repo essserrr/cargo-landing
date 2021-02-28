@@ -1,0 +1,8 @@
+mixin checkbox(props)
+    - const { label } = props;
+    - const inputTheme = ` input--theme-${theme}`;
+
+    label.checkbox
+        input(type='checkbox')
+        span.checkbox__checkmark
+        .checkbox__text  #{label}
