@@ -1,7 +1,18 @@
+include ../../ticker/ticker.pug
+
 article.delivery.main-block.row.no-gutters
-    section.delivery__block.col-12
+    section.delivery__block.col-auto
         h1.delivery__title
             | #{"Закажите доставку сейчас и получите "}
             i.text--blue скидку 10%
         .delivery__form-block 
             include ../../forms/delivery-form/delivery-form.pug
+    section.delivery__block.col
+        .delivery__emblem
+            include ../../emblem/emblem.pug
+        .delivery__ticker-line-1
+            +ticker({text: "скидка · скидка · скидка · скидка · скидка · скидка ·скидка · скидка · скидка · скидка · скидка · скидка", width: 1100})
+        .delivery__ticker-line-2
+            +ticker({text: "скидка · скидка · скидка · скидка · скидка · скидка ·скидка · скидка · скидка · скидка · скидка · скидка", width: 1100})
+        .delivery__ticker-line-3
+            +ticker({text: "скидка · скидка · скидка · скидка · скидка · скидка ·скидка · скидка · скидка · скидка · скидка · скидка", width: 1100})

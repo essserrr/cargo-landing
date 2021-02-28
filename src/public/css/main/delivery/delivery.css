@@ -7,6 +7,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+
+    overflow: hidden;
 }
 
 .delivery__title {
@@ -16,4 +18,45 @@
 .delivery__form-block {
     margin-top: 16px;
     max-width: 723px;
+}
+
+.delivery__emblem {
+    position: absolute;
+
+    top: 70px;
+    left: 214px;
+    z-index: 4;
+}
+
+.delivery__ticker-line-1 {
+    position: absolute;
+
+    z-index: 1;
+
+    left: -236px;
+    top: 220px;
+
+    transform: rotate(49.28deg);
+}
+
+.delivery__ticker-line-2 {
+    position: absolute;
+
+    left: -18px;
+    top: 125px;
+
+    z-index: 2;
+
+    transform: rotate(37.62deg);
+}
+
+.delivery__ticker-line-3 {
+    position: absolute;
+
+    left: -16px;
+    top: 150px;
+
+    z-index: 3;
+
+    transform: rotate(57.15deg);
 }

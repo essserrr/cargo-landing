@@ -17,10 +17,16 @@ block scripts
         src='/libs/validator/jquery.validationEngine-ru.js',
         charset='utf-8'
     )
+    script(
+        type='text/javascript',
+        src='/libs/lettering/jquery.lettering.js',
+        charset='utf-8'
+    )
 
     //components
     script(type='text/javascript', src='/js/review/review.js')
     script(type='text/javascript', src='/js/validation/validation.js')
+    script(type='text/javascript', src='/js/emblem/emblem.js')
 block styles
     //libs
     link(
@@ -76,10 +82,12 @@ block styles
     )
     link(rel='stylesheet', type='text/css', href='/css/input/input.css')
     link(rel='stylesheet', type='text/css', href='/css/checkbox/checkbox.css')
+    link(rel='stylesheet', type='text/css', href='/css/emblem/emblem.css')
+    link(rel='stylesheet', type='text/css', href='/css/ticker/ticker.css')
 
+    //blocks
     link(rel='stylesheet', type='text/css', href='/css/main/main.css')
     link(rel='stylesheet', type='text/css', href='/css/footer/footer.css')
-
     link(
         rel='stylesheet',
         type='text/css',
