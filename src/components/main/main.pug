@@ -1,3 +1,5 @@
+include ../diolog/diolog.pug
+
 article.row.no-gutters
     section.col-12
         include ./who-we-are/who-we-are.pug
@@ -9,3 +11,5 @@ article.row.no-gutters
         include ./why-we/why-we.pug
     section.col-12
         include ./delivery/delivery.pug
+
+    +diolog({id:"callback"})

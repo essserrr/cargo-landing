@@ -1,0 +1,64 @@
+.diolog {
+    width: 680px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2b303e;
+}
+
+@media (max-width: 768px) {
+    .diolog {
+        width: 343px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media (max-width: 360px) {
+    .diolog {
+        width: 100%;
+    }
+}
+
+.diolog__content {
+    z-index: 1;
+}
+
+.diolog .fancybox-button.fancybox-close-small {
+    width: 66px;
+    height: 66px;
+
+    top: 31px;
+    right: 31px;
+
+    padding: 18px 18px;
+
+    border: 3px dotted rgb(255, 255, 255, 0.15);
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .diolog .fancybox-button.fancybox-close-small {
+        width: 56px;
+        height: 56px;
+
+        top: 24px;
+        right: 24px;
+
+        padding: 12px 12px;
+    }
+}
+
+.diolog .fancybox-button.fancybox-close-small svg {
+    width: 24px;
+    height: 24px;
+}
+
+.diolog .fancybox-button.fancybox-close-small svg path {
+    stroke: #ffffff;
+    stroke-width: 1.5px;
+}
+
+.diolog .fancybox-button.fancybox-close-small:hover {
+    border-color: #7370ff;
+    background: #7370ff;
+}
