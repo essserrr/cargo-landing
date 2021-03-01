@@ -13,4 +13,5 @@ $(function () {
     };
 
     $('.js-callback').on('click', phonecallbackHandler);
+    $('.js-callback').trigger('click');
 });

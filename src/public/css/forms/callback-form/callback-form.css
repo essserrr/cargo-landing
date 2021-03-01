@@ -1,0 +1,24 @@
+.callb-form {
+    color: white;
+}
+
+.callb-form__title {
+    max-width: 453px;
+}
+
+.callb-form__description {
+    max-width: 461px;
+
+    margin-top: 32px;
+
+    text-align: center;
+}
+
+.callb-form__form {
+    margin-top: -32px;
+    padding-top: 40px;
+}
+
+.callb-form__item {
+    margin-top: 32px;
+}
