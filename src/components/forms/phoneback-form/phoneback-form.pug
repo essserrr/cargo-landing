@@ -1,0 +1,22 @@
+include ../../input/input.pug
+include ../../with-units/with-units.pug
+
+.callb-form.row.no-gutter.justify-content-center 
+    h2.callb-form__title Обратный звонок
+    h5.callb-form__description 
+        | #{"Оставьте свой номер телефона и менеджер перезвонит вам в течение "}
+        i.text--green 7 минут
+    form#form-phoneback.callb-form__form 
+        .callb-form__item
+            +input({theme: "dark", placeholder: "имя", check: "validate[required]", name: "fullName"})
+        .callb-form__item
+            +input({theme: "dark", placeholder: "номер телефона", type: "phone", check: "validate[required]", name: "phone"})
+        .callb-form__item
+            +input({theme: "dark", placeholder: "город получателя", check: "validate[required]", name: "destination"})
+        .callb-form__item
+            +with-units({units: "кг"})
+                +input({theme: "dark", placeholder: "вес", check: "validate[required]", name: "mass"})
+        .callb-form__item
+            +input({theme: "dark", placeholder: "тип груза", check: "validate[required]", name: "cargoType"})
+        .callb-form__item
+            +input({theme: "dark", placeholder: "время для звонка", check: "validate[required]", name: "phoneBack"})

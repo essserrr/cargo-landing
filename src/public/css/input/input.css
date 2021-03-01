@@ -1,4 +1,5 @@
 .input {
+    position: relative;
     min-width: 300px;
     max-width: 300px;
     padding: 20px 32px;

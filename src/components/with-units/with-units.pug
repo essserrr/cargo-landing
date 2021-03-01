@@ -1,0 +1,7 @@
+mixin with-units(props)
+    - const { units } = props;
+
+    .with-units
+        .with-units__units #{units}
+        .with-units__input
+            block
