@@ -22,11 +22,16 @@ block scripts
         src='/libs/lettering/jquery.lettering.js',
         charset='utf-8'
     )
+    script(
+        type='text/javascript',
+        src='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'
+    )
 
     //components
     script(type='text/javascript', src='/js/review/review.js')
     script(type='text/javascript', src='/js/validation/validation.js')
     script(type='text/javascript', src='/js/emblem/emblem.js')
+    script(type='text/javascript', src='/js/fancybox/fancybox.js')
 block styles
     //libs
     link(
@@ -38,6 +43,10 @@ block styles
         rel='stylesheet',
         type='text/css',
         href='/libs/validator/validationEngine.jquery.css'
+    )
+    link(
+        rel='stylesheet',
+        href='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
     )
 
     //components
@@ -110,6 +119,7 @@ block styles
         href='/css/main/who-we-are/who-we-are.css'
     )
     link(rel='stylesheet', type='text/css', href='/css/main/why-we/why-we.css')
+    link(rel='stylesheet', type='text/css', href='/css/diolog/diolog.css')
 
 block content
     include ../../components/main/main.pug
