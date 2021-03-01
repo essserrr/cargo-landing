@@ -7,6 +7,6 @@ include ../../input/input.pug
         i.text--green 7 минут
     form#form-callback.callb-form__form 
         .callb-form__item
-            +input({theme: "dark", placeholder: "имя", check: "validate[required]"})
+            +input({theme: "dark", placeholder: "имя", check: "validate[required]", name: "fullName"})
         .callb-form__item
-            +input({theme: "dark", placeholder: "номер телефона", type: "phone", check: "validate[required]"})
+            +input({theme: "dark", placeholder: "номер телефона", type: "phone", check: "validate[required]", name: "phone"})

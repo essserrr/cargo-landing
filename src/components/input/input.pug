@@ -1,5 +1,5 @@
 mixin input(props)
-    - const { placeholder, defaultVal, check, theme = "light", type = "text" } = props;
+    - const { name, placeholder, defaultVal, check, theme = "light", type = "text" } = props;
     - const inputTheme = ` input--theme-${theme}`;
     - const checkType = check ? ` ${check}` : "";
 
@@ -7,5 +7,6 @@ mixin input(props)
         class=`input${inputTheme}${checkType}`,
         placeholder=placeholder,
         value=defaultVal,
-        type=type
+        type=type,
+        name=name
     )

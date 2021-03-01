@@ -7,13 +7,13 @@ form#form-delivery.row.no-gutters.justify-content-center.justify-content-md-betw
 )
     .row.no-gutters.justify-content-center.justify-content-md-between.delivery-form__input-list
         .col-auto.delivery-form__item 
-            +input({placeholder: "имя", check: "validate[required]"})
+            +input({placeholder: "имя", check: "validate[required]", name:"fullName"})
         .col-auto.delivery-form__item 
-            +input({placeholder: "номер телефона", check: "validate[required]", type: "phone"})
+            +input({placeholder: "номер телефона", check: "validate[required]", type: "phone", name:"phone"})
         .col-auto.delivery-form__item 
-            +input({placeholder: "город получателя", check: "validate[required]"})
+            +input({placeholder: "город получателя", check: "validate[required]", name:"destination"})
         .col-auto.delivery-form__item 
-            +input({placeholder: "описание груза", check: "validate[required]"})
+            +input({placeholder: "описание груза", check: "validate[required]", name:"about"})
     .col-auto.delivery-form__button 
         +button({label: "заказать доставку", type: "submit"})
     .col-auto.delivery-form__agreement
