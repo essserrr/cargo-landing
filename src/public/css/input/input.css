@@ -10,8 +10,6 @@
 
     border: none;
     border-radius: 8px;
-
-    backdrop-filter: blur(4px);
 }
 
 .input.input--theme-light {
@@ -28,12 +26,70 @@
     outline: none;
 }
 
-.input--theme-light.input::placeholder,
-.input--theme-light.input::-webkit-input-placeholder,
-.input--theme-light.input::-moz-placeholder,
+.input--theme-light.input::placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+}
+.input--theme-light.input::-webkit-input-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+}
+.input--theme-light.input::-moz-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+}
 .input--theme-light.input::-ms-input-placeholder {
     font-family: 'TT Travels', Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #4f4f4f;
+}
+
+.input.input--theme-dark {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.input.input--theme-dark:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.input.input--theme-dark:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+.input.input--theme-dark::-webkit-input-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.input.input--theme-dark::-moz-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.input.input--theme-dark::-ms-input-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.input.input--theme-dark::placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffffda;
 }
