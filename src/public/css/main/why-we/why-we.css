@@ -1,4 +1,6 @@
 .why-we {
+    position: relative;
+    overflow: hidden;
 }
 
 .why-we__block {
@@ -252,4 +254,87 @@
 .why-we__review-container .bx-next:hover::after,
 .why-we__review-container .bx-prev:hover::after {
     border-color: #ffffff;
+}
+
+.why-we__blue-hor,
+.why-we__blue-left,
+.why-we__blue-right,
+.why-we__green-left,
+.why-we__violet-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    position: absolute;
+}
+
+.why-we__blue-hor {
+    background-image: url('/circles/light-review/blue-hor.png');
+    width: 906px;
+    height: 906px;
+
+    top: -10%;
+    left: 7%;
+}
+
+.why-we__blue-left {
+    background-image: url('/circles/light-review/blue-left.png');
+    width: 906px;
+    height: 906px;
+
+    bottom: -20%;
+    right: 12%;
+}
+
+.why-we__blue-right {
+    background-image: url('/circles/light-review/blue-right.png');
+    width: 906px;
+    height: 906px;
+
+    top: 35%;
+    right: -10%;
+}
+
+.why-we__green-left {
+    background-image: url('/circles/light-review/green-left.png');
+    width: 906px;
+    height: 906px;
+
+    top: 15%;
+    left: -7%;
+}
+
+.why-we__violet-right {
+    background-image: url('/circles/light-review/violet-right.png');
+    width: 906px;
+    height: 906px;
+
+    top: 3%;
+    right: -7%;
+}
+
+@media (max-width: 576px) {
+    .why-we__blue-hor {
+        left: 0%;
+    }
+
+    .why-we__blue-left {
+        bottom: -7%;
+        right: 0%;
+    }
+
+    .why-we__blue-right {
+        top: 60%;
+        right: -120%;
+    }
+
+    .why-we__green-left {
+        top: 15%;
+        left: -130%;
+    }
+
+    .why-we__violet-right {
+        top: 33%;
+        right: -135%;
+    }
 }

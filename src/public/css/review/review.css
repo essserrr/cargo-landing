@@ -5,13 +5,14 @@
     padding-right: 48px !important;
 
     box-sizing: border-box;
+    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 1200px) {
     .review {
         max-width: 343px;
-        margin-top: 0px !important;
-        margin-right: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
@@ -31,6 +32,8 @@
     background-color: rgba(255, 255, 255, 0.35);
     border-radius: 24px;
     z-index: -1;
+
+    backdrop-filter: blur(40px);
 }
 
 .review :before {
@@ -50,11 +53,13 @@
     border-radius: 24px;
 
     z-index: -2;
+
+    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 1200px) {
-    .review::before,
-    .review::after {
+    .review :before,
+    .review :after {
         display: none;
     }
 }
@@ -64,6 +69,8 @@
 
     background: rgba(255, 255, 255, 0.35);
     border-radius: 24px;
+
+    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 576px) {
