@@ -1,5 +1,6 @@
 include ../../input/input.pug
 include ../../with-units/with-units.pug
+include ../../select/select.pug
 
 .callb-form.row.no-gutter.justify-content-center 
     h2.callb-form__title Обратный звонок
@@ -17,6 +18,6 @@ include ../../with-units/with-units.pug
             +with-units({units: "кг"})
                 +input({theme: "dark", placeholder: "вес", check: "validate[required]", name: "mass"})
         .callb-form__item
-            +input({theme: "dark", placeholder: "тип груза", check: "validate[required]", name: "cargoType"})
+            +select({name: 'type', check: "validate[required]", placeholder: "тип груза", options: ["тип 1", "тип 2", "тип 3"]})
         .callb-form__item
-            +input({theme: "dark", placeholder: "время для звонка", check: "validate[required]", name: "phoneBack"})
+            +select({name: 'phoneBack', check: "validate[required]", placeholder: "время для звонка", options: ["09 - 10", "10 - 11"]})
