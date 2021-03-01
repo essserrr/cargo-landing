@@ -339,59 +339,59 @@
 <path d="M292.227 240.009L285.795 238.724L283.222 241.295L278.077 245.152L275.504 243.866L272.931 245.152V247.723L274.218 249.009H276.791H278.077L276.791 250.295L275.504 251.58L276.791 254.152L274.218 256.723L272.931 259.295L271.645 263.152V267.009L269.072 268.294H267.786H266.5H265.213H263.927V269.58L261.354 268.294H260.068L256.209 270.866L253.636 272.151L257.495 277.294L261.354 282.437L260.068 283.723L257.495 285.008L254.922 286.294L249.777 283.723L248.49 285.008L247.204 287.58L245.918 288.865L244.631 290.151L245.918 291.437L247.204 292.722L248.49 295.294H252.35H253.636L254.922 296.58H256.209H257.495L258.781 297.865L261.354 299.151V300.437L262.64 299.151H265.213V300.437L263.927 303.008L265.213 304.294H266.5V306.865V308.151V309.436L267.786 310.722L266.5 312.008L265.213 313.293L269.072 314.579L267.786 318.436V321.008H269.072V322.293H267.786L269.072 326.15L271.645 327.436L272.931 323.579L274.218 318.436H276.791L278.077 317.151L279.363 312.008L281.936 308.151H284.509L285.795 309.436H288.368L290.941 308.151L293.513 300.437L298.659 297.865L301.231 300.437L303.804 301.722H305.091H306.377L307.663 303.008V304.294L308.95 305.579H311.522L312.809 304.294L315.382 303.008L316.668 299.151L317.954 297.865L315.382 295.294V291.437L321.813 287.58L325.672 282.437L320.527 278.58L315.382 273.437V272.151H311.522L306.377 273.437L302.518 272.151L297.372 269.58V270.866H296.086H294.8L292.227 273.437L288.368 276.009V273.437L289.654 272.151L288.368 268.294V265.723L287.081 263.152L284.509 260.58L287.081 256.723L292.227 255.438V254.152V251.58L296.086 245.152L293.513 242.581L292.227 238.724V240.009Z" fill="#F8F8F8"/>
 <path d="M292.227 240.009L285.795 238.724L283.222 241.295L278.077 245.152L275.504 243.866L272.931 245.152V247.723L274.218 249.009H276.791H278.077L276.791 250.295L275.504 251.58L276.791 254.152L274.218 256.723L272.931 259.295L271.645 263.152V267.009L269.072 268.294H267.786H266.5H265.213H263.927V269.58L261.354 268.294H260.068L256.209 270.866L253.636 272.151L257.495 277.294L261.354 282.437L260.068 283.723L257.495 285.008L254.922 286.294L249.777 283.723L248.49 285.008L247.204 287.58L245.918 288.865L244.631 290.151L245.918 291.437L247.204 292.722L248.49 295.294H252.35H253.636L254.922 296.58H256.209H257.495L258.781 297.865L261.354 299.151V300.437L262.64 299.151H265.213V300.437L263.927 303.008L265.213 304.294H266.5V306.865V308.151V309.436L267.786 310.722L266.5 312.008L265.213 313.293L269.072 314.579L267.786 318.436V321.008H269.072V322.293H267.786L269.072 326.15L271.645 327.436L272.931 323.579L274.218 318.436H276.791L278.077 317.151L279.363 312.008L281.936 308.151H284.509L285.795 309.436H288.368L290.941 308.151L293.513 300.437L298.659 297.865L301.231 300.437L303.804 301.722H305.091H306.377L307.663 303.008V304.294L308.95 305.579H311.522L312.809 304.294L315.382 303.008L316.668 299.151L317.954 297.865L315.382 295.294V291.437L321.813 287.58L325.672 282.437L320.527 278.58L315.382 273.437V272.151H311.522L306.377 273.437L302.518 272.151L297.372 269.58V270.866H296.086H294.8L292.227 273.437L288.368 276.009V273.437L289.654 272.151L288.368 268.294V265.723L287.081 263.152L284.509 260.58L287.081 256.723L292.227 255.438V254.152V251.58L296.086 245.152L293.513 242.581L292.227 238.724V240.009Z" stroke="#E0E0E0" stroke-width="2"/>
 </g>
-<g clip-path="url(#clip0)" id="flag-1" class="review-flag">
+<g clip-path="url(#clip0)" id="flag-0" class="review-flag js-review-flag active">
 <path d="M317.424 270.919L317.454 283.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M317.425 270.919L340.441 270.929L332.438 262.916L340.45 254.913L317.434 254.903L317.425 270.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip1)" id="flag-2" class="review-flag">
+<g clip-path="url(#clip1)" id="flag-1" class="review-flag js-review-flag">
 <path d="M413.425 220.919L413.454 233.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M413.424 220.919L436.441 220.929L428.437 212.916L436.45 204.913L413.434 204.903L413.424 220.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip2)" id="flag-3" class="review-flag">
+<g clip-path="url(#clip2)" id="flag-2" class="review-flag js-review-flag">
 <path d="M325.424 207.919L325.454 220.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M325.425 207.919L348.441 207.929L340.438 199.916L348.45 191.913L325.434 191.903L325.425 207.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip3)" id="flag-4" class="review-flag">
+<g clip-path="url(#clip3)" id="flag-3" class="review-flag js-review-flag">
 <path d="M243.424 308.919L243.454 321.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M243.425 308.919L266.441 308.929L258.438 300.916L266.45 292.913L243.434 292.903L243.425 308.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip4)" id="flag-5" class="review-flag">
+<g clip-path="url(#clip4)" id="flag-4" class="review-flag js-review-flag">
 <path d="M143.424 391.919L143.454 404.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M143.425 391.919L166.441 391.929L158.438 383.916L166.45 375.913L143.434 375.903L143.425 391.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip5)" id="flag-6" class="review-flag">
+<g clip-path="url(#clip5)" id="flag-5" class="review-flag js-review-flag">
 <path d="M191.424 228.919L191.454 241.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M191.425 228.919L214.441 228.929L206.438 220.916L214.45 212.913L191.434 212.903L191.425 228.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip6)" id="flag-7" class="review-flag">
+<g clip-path="url(#clip6)" id="flag-6" class="review-flag js-review-flag">
 <path d="M732.425 478.919L732.454 491.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M732.424 478.919L755.441 478.929L747.437 470.916L755.45 462.913L732.434 462.903L732.424 478.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip7)" id="flag-8" class="review-flag">
+<g clip-path="url(#clip7)" id="flag-7" class="review-flag js-review-flag">
 <path d="M687.425 307.919L687.454 320.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M687.424 307.919L710.441 307.929L702.437 299.916L710.45 291.913L687.434 291.903L687.424 307.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip8)" id="flag-9" class="review-flag">
+<g clip-path="url(#clip8)" id="flag-8" class="review-flag js-review-flag">
 <path d="M928.425 460.919L928.454 473.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M928.424 460.919L951.441 460.929L943.437 452.916L951.45 444.913L928.434 444.903L928.424 460.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip9)" id="flag-10" class="review-flag">
+<g clip-path="url(#clip9)" id="flag-9" class="review-flag js-review-flag">
 <path d="M980.425 522.919L980.454 535.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M980.424 522.919L1003.44 522.929L995.437 514.916L1003.45 506.913L980.434 506.903L980.424 522.919Z" fill="#6DFE3B" stroke="#6DFE3B" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M980.424 522.919L1003.44 522.929L995.437 514.916L1003.45 506.913L980.434 506.903L980.424 522.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip10)" id="flag-11" class="review-flag">
+<g clip-path="url(#clip10)" id="flag-10" class="review-flag js-review-flag">
 <path d="M983.425 479.919L983.454 492.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M983.424 479.919L1006.44 479.929L998.437 471.916L1006.45 463.913L983.434 463.903L983.424 479.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip11)" id="flag-12" class="review-flag">
+<g clip-path="url(#clip11)" id="flag-11" class="review-flag js-review-flag">
 <path d="M1097.42 214.919L1097.45 227.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M1097.42 214.919L1120.44 214.929L1112.44 206.916L1120.45 198.913L1097.43 198.903L1097.42 214.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip12)" id="flag-13" class="review-flag">
+<g clip-path="url(#clip12)" id="flag-12" class="review-flag js-review-flag">
 <path d="M1088.42 604.919L1088.45 617.493" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M1088.42 604.919L1111.44 604.928L1103.44 596.916L1111.45 588.912L1088.43 588.903L1088.42 604.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>
-<g clip-path="url(#clip13)" id="flag-14" class="review-flag">
+<g clip-path="url(#clip13)" id="flag-13" class="review-flag js-review-flag">
 <path d="M1083.42 401.919L1083.45 414.494" stroke="#828282" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M1083.42 401.919L1106.44 401.929L1098.44 393.916L1106.45 385.913L1083.43 385.903L1083.42 401.919Z" fill="#7370FF" stroke="#7370FF" stroke-width="2" stroke-miterlimit="10"/>
 </g>

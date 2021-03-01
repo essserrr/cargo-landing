@@ -123,6 +123,15 @@
     filter: none;
 }
 
+.why-we__map svg .review-flag {
+    cursor: pointer;
+}
+
+.why-we__map svg .review-flag.active > path:last-child {
+    fill: #6dfe3b;
+    stroke: #6dfe3b;
+}
+
 .why-we__riview-row {
     margin-top: 96px;
 }
