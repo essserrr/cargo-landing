@@ -1,0 +1,31 @@
+include ../../input/input.pug
+include ../../with-units/with-units.pug
+include ../../select/select.pug
+include ../../button/button.pug
+include ../../checkbox/checkbox.pug
+
+.callb-form.row.no-gutter.justify-content-center 
+    h2.callb-form__title Рассчитать стоимость доставки
+    .js-close-fancy-button.callb-form__button.hidden 
+        +button({label: "хорошо, спасибо", theme: "green", type: "close-fancy", size: "lg"})
+    form#form-costs.callb-form__form.row.no-gutter.justify-content-center(
+        action='#'
+    )
+        .col-auto.js-inputs
+            .callb-form__item
+                +input({theme: "dark", placeholder: "имя", check: "validate[required]", name: "fullName"})
+            .callb-form__item
+                +input({theme: "dark", placeholder: "номер телефона", type: "phone", check: "validate[required]", name: "phone"})
+            .callb-form__item
+                +input({theme: "dark", placeholder: "город получателя", check: "validate[required]", name: "destination"})
+            .callb-form__item
+                +with-units({units: "кг"})
+                    +input({theme: "dark", placeholder: "вес", check: "validate[required]", name: "mass"})
+            .callb-form__item
+                +select({name: 'type', check: "validate[required]", placeholder: "тип груза", options: ["тип 1", "тип 2", "тип 3"]})
+            .callb-form__item
+                +select({name: 'phoneBack', check: "validate[required]", placeholder: "время для звонка", options: ["09 - 10", "10 - 11"]})
+            .callb-form__button
+                +button({label: "рассчитать стоимость", theme: "green", type: "submit", size: "lg"})
+        .callb-form__checkbox.js-agreement
+            +checkbox({label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных", theme: "light", check: "validate[minCheckbox[1]]", name: 'agreement[]'})

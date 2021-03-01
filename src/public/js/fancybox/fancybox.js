@@ -13,7 +13,7 @@ $(function () {
     };
 
     $('.js-phoneback').on('click', phonebackHandler);
-    //$('.js-phoneback').trigger('click');
+    $('.js-costs').on('click', phonebackHandler);
 
     const closeHandler = function () {
         $.fancybox.close();

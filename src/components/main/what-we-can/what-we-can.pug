@@ -23,7 +23,7 @@ article.we-can.main-block.row.no-gutters
                     .hideon-sm
                     | и реализацию проектов любой сложности
                 .we-can__team--mt-lg
-                    +button({theme: "green", size: "sm", label: "рассчитать проект"})
+                    +button({theme: "green", size: "sm", label: "рассчитать проект", js: 'js-costs', target: "#costs"})
             .col
                 .we-can__team-perks.row.no-gutters.justify-content-between
                     .col-auto 
@@ -110,4 +110,4 @@ article.we-can.main-block.row.no-gutters
                 .col-auto 
                     +delivery-type({title: "Морские", text: "Пожалуй, самый дешевый способ доставки \nиз предствленных.", icon: "ship.png", sticker: "2 -- 7 $/кг"})
             .we-can__button-row.row.no-gutters.justify-content-center
-                +button({label: "рассчитать стоимость", theme: "green"})
+                +button({label: "рассчитать стоимость", theme: "green", js: 'js-costs', target: "#costs"})

@@ -4,7 +4,7 @@ $(function () {
         return;
     }
 
-    const submitHandler = function (event) {
+    const submitPhoneHandler = function (event) {
         event.preventDefault();
 
         const target = $(event.currentTarget);
@@ -17,5 +17,21 @@ $(function () {
             .toggleClass('hidden');
     };
 
-    $('#form-phoneback').on('submit', submitHandler);
+    $('#form-phoneback').on('submit', submitPhoneHandler);
+
+    const submitCostsHandler = function (event) {
+        event.preventDefault();
+
+        const target = $(event.currentTarget);
+        if (!target.validationEngine('validate')) return;
+
+        target.css('display', 'none');
+
+        const parents = target.parents('.callb-form');
+        parents.find('.js-close-fancy-button').toggleClass('hidden');
+        parents
+            .find('.callb-form__title')
+            .html('Ваша заявка \nна рассчет стоимости \nдоставки принята');
+    };
+    $('#form-costs').on('submit', submitCostsHandler);
 });

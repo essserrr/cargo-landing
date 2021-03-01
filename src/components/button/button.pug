@@ -1,9 +1,15 @@
 mixin button(props)
-    - const { label, type, theme = "blue", size = "md", disabled = false } = props;
+    - const { js, target, label, type, theme = "blue", size = "md", disabled = false } = props;
     - const themeVariant = ` button--${theme}`;
     - const sizeVaraint = ` button--${size}`;
+    - const jsClass = js ? ` ${js}` : "";
 
-    button(class=`button${themeVariant}${sizeVaraint}`, disabled=disabled, type=type)
+    button(
+        class=`button${themeVariant}${sizeVaraint}${jsClass}`,
+        disabled=disabled,
+        type=type,
+        data-open-target=target
+    )
         .row.no-gutters
             if label
                 .col.button__label #{label}
