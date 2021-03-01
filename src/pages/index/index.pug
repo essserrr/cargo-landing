@@ -24,6 +24,11 @@ block scripts
     )
     script(
         type='text/javascript',
+        src='/libs/mask/jquery.inputmask.js',
+        charset='utf-8'
+    )
+    script(
+        type='text/javascript',
         src='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'
     )
 
@@ -32,6 +37,8 @@ block scripts
     script(type='text/javascript', src='/js/validation/validation.js')
     script(type='text/javascript', src='/js/emblem/emblem.js')
     script(type='text/javascript', src='/js/fancybox/fancybox.js')
+    script(type='text/javascript', src='/js/mask/mask.js')
+
 block styles
     //libs
     link(
@@ -94,6 +101,11 @@ block styles
     link(rel='stylesheet', type='text/css', href='/css/emblem/emblem.css')
     link(rel='stylesheet', type='text/css', href='/css/ticker/ticker.css')
     link(rel='stylesheet', type='text/css', href='/css/s-media/s-media.css')
+    link(
+        rel='stylesheet',
+        type='text/css',
+        href='/css/forms/callback-form/callback-form.css'
+    )
 
     //blocks
     link(rel='stylesheet', type='text/css', href='/css/main/main.css')
