@@ -1,0 +1,87 @@
+.select {
+    position: relative;
+    padding: 20px 64px 20px 32px;
+
+    font-family: 'TT Travels Medium', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+    outline: none !important;
+    border: none !important;
+    border-radius: 8px;
+
+    background-image: none;
+
+    background-image: url('/css/icons/arrow-down.svg') !important;
+    background-position: bottom 20px right 24px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select.selected {
+    background-image: url('/css/icons/arrow-up.svg') !important;
+}
+
+.select option {
+    color: #111111;
+}
+
+.select__default-opt {
+    display: none;
+}
+
+.select.select.select--theme-dark.select--default-selected {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffffda;
+}
+
+.select.select--theme-dark {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+
+    min-width: 320px;
+    max-width: 320px;
+
+    height: 64px;
+}
+
+.select.select--theme-dark:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.select.select--theme-dark:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.select.select--theme-dark::-webkit-select-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.select.select--theme-dark::-moz-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.select.select--theme-dark::-ms-select-placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.select.select--theme-dark::placeholder {
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffffda;
+}

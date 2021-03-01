@@ -1,0 +1,15 @@
+mixin select(props)
+    - const { name, type, placeholder, defaultVal, check, options, theme = "dark" } = props;
+    - const selectTheme = ` select--theme-${theme}`;
+    - const checkType = check ? ` ${check}` : "";
+    - const defaultStyle = placeholder ? "select--default-selected" : "";
+
+    select(
+        class=`js-select form-control select ${defaultStyle}${selectTheme}${checkType}`,
+        name=name,
+        type=type
+    )
+        if placeholder
+            option.select__default-opt(selected) #{placeholder}
+        each val in options
+            option= val
