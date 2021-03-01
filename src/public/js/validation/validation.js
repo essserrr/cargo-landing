@@ -3,5 +3,5 @@ $(document).ready(function () {
         console.log('Validation engine is not connected');
         return;
     }
-    $('#form-delivery, #form-callback').validationEngine();
+    $('#form-delivery, #form-phoneback').validationEngine();
 });

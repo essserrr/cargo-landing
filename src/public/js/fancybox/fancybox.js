@@ -4,7 +4,7 @@ $(function () {
         return;
     }
 
-    const phonecallbackHandler = function (event) {
+    const phonebackHandler = function (event) {
         const opens = $(event.currentTarget).attr('data-open-target');
         $.fancybox.open({
             src: opens,
@@ -12,6 +12,6 @@ $(function () {
         });
     };
 
-    $('.js-callback').on('click', phonecallbackHandler);
-    $('.js-callback').trigger('click');
+    $('.js-phoneback').on('click', phonebackHandler);
+    $('.js-phoneback').trigger('click');
 });
