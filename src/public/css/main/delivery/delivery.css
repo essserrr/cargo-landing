@@ -134,6 +134,18 @@
     transform: rotate(57.15deg);
 }
 
+.delivery__ticker-line-1 .ticker-wrap .ticker {
+    animation-delay: 0s;
+}
+
+.delivery__ticker-line-2 .ticker-wrap .ticker {
+    animation-delay: 1s;
+}
+
+.delivery__ticker-line-3 .ticker-wrap .ticker {
+    animation-delay: 2s;
+}
+
 @media (max-width: 1439px) {
     .delivery__ticker-line-1 {
         left: -300px;
