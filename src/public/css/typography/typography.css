@@ -55,6 +55,15 @@ h1 {
     }
 }
 
+h2 {
+    font-family: 'TT Travels Medium', Arial, sans-serif;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+
 h3 {
     font-family: 'TT Travels Medium', Arial, sans-serif;
     letter-spacing: 0.5px;
