@@ -64,6 +64,14 @@ h2 {
     margin: 0;
 }
 
+@media (max-width: 575px) {
+    h2 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
 h3 {
     font-family: 'TT Travels Medium', Arial, sans-serif;
     letter-spacing: 0.5px;

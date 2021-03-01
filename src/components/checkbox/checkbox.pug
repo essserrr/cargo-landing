@@ -1,9 +1,9 @@
 mixin checkbox(props)
-    - const { check, name, label, checked = false } = props;
-    - const inputTheme = ` input--theme-${theme}`;
+    - const { check, name, label, theme, checked = false } = props;
+    - const inputTheme = theme ? ` checkbox--theme-${theme}` : "";
     - const checkType = check ? ` ${check}` : "";
 
-    label.checkbox
+    label(class=`checkbox${inputTheme}`)
         input(
             type='checkbox',
             class=`${checkType}`,

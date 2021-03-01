@@ -6,6 +6,12 @@
     max-width: 453px;
 }
 
+@media (max-width: 576px) {
+    .callb-form__title {
+        text-align: center;
+    }
+}
+
 .callb-form__description {
     max-width: 461px;
 
@@ -14,11 +20,55 @@
     text-align: center;
 }
 
+@media (max-width: 576px) {
+    .callb-form__description {
+        max-width: 262px;
+        margin-top: 16px;
+        white-space: pre-line;
+    }
+}
+
 .callb-form__form {
     margin-top: -32px;
     padding-top: 40px;
 }
 
+@media (max-width: 576px) {
+    .callb-form__form {
+        margin-top: -16px;
+        padding-top: 32px;
+    }
+}
+
 .callb-form__item {
+    max-width: 311px;
     margin-top: 32px;
+}
+
+@media (max-width: 576px) {
+    .callb-form__item {
+        margin-top: 16px;
+    }
+}
+
+.callb-form__button {
+    margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .callb-form__button {
+        margin-top: 32px;
+    }
+}
+
+.callb-form__checkbox {
+    margin-top: 32px;
+    max-width: 383px;
+}
+
+@media (max-width: 576px) {
+    .callb-form__checkbox {
+        margin-top: 24px;
+        max-width: 290px;
+    }
 }

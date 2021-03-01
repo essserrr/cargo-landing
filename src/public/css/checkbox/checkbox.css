@@ -83,3 +83,7 @@
     line-height: 20px;
     color: #4f4f4f;
 }
+
+.checkbox.checkbox--theme-light .checkbox__text {
+    color: #ffffff;
+}

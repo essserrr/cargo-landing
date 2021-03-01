@@ -13,5 +13,10 @@ $(function () {
     };
 
     $('.js-phoneback').on('click', phonebackHandler);
-    $('.js-phoneback').trigger('click');
+    //$('.js-phoneback').trigger('click');
+
+    const closeHandler = function () {
+        $.fancybox.close();
+    };
+    $('button[type="close-fancy"]').on('click', closeHandler);
 });

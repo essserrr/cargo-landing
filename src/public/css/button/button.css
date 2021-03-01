@@ -21,6 +21,18 @@
     letter-spacing: 0.3px;
 }
 
+.button.button--lg {
+    padding: 20px 54px 20px 55px;
+    width: 320px;
+}
+
+@media (max-width: 576px) {
+    .button.button--lg {
+        padding: 20px 54px 20px 55px;
+        width: 100%;
+    }
+}
+
 .button.button--md {
     padding: 20px 54px 20px 55px;
 }

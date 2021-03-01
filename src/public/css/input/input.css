@@ -60,6 +60,13 @@
     max-width: 320px;
 }
 
+@media (max-width: 576px) {
+    .input.input--theme-dark {
+        width: 100%;
+        min-width: unset;
+    }
+}
+
 .input.input--theme-dark:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
