@@ -29,15 +29,14 @@ $(function () {
         const target = $(event.currentTarget);
 
         if (prevTarget.attr('id') === target.attr('id')) return;
+        if (prevTarget) {
+            prevTarget.removeClass('active');
+        }
 
         const reviewID = target.attr('id').slice(5);
 
         slider.goToSlide(reviewID);
-
         target.addClass('active');
-        if (prevTarget) {
-            prevTarget.removeClass('active');
-        }
 
         prevTarget = target;
     };

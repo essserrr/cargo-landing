@@ -1,5 +1,7 @@
 .we-can {
     background-color: #2b303e;
+    overflow: hidden !important;
+    position: relative;
 }
 
 .we-can__block {
@@ -214,5 +216,116 @@
 @media (max-width: 576px) {
     .we-can__button-row {
         margin-top: 48px;
+    }
+}
+
+.we-can__blue-round,
+.we-can__violet-left,
+.we-can__violet-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    position: absolute;
+}
+
+.we-can__blue-round {
+    background-image: url('/circles/dark/blue-round.png');
+    width: 720px;
+    height: 720px;
+}
+
+.we-can__violet-left {
+    background-image: url('/circles/dark/violet-left.png');
+    width: 803px;
+    height: 803px;
+}
+
+.we-can__violet-right {
+    background-image: url('/circles/dark/violet-right.png');
+    width: 720px;
+    height: 720px;
+}
+
+.we-can__pos-1 {
+    left: -15%;
+    top: 4%;
+}
+
+.we-can__pos-2 {
+    left: -20%;
+    bottom: 0%;
+}
+
+.we-can__pos-3 {
+    left: 10%;
+    bottom: 24%;
+}
+
+.we-can__pos-4 {
+    top: 10%;
+    left: 32%;
+}
+
+.we-can__pos-5 {
+    bottom: 10%;
+    right: 20%;
+}
+
+.we-can__pos-6 {
+    bottom: 42%;
+    right: -4%;
+}
+
+.we-can__pos-7 {
+    top: -4%;
+    right: -4%;
+}
+
+.we-can__pos-8 {
+    bottom: 0%;
+    right: -6%;
+}
+
+@media (max-width: 576px) {
+    .we-can__pos-1 {
+        left: -85%;
+        top: 2%;
+    }
+
+    .we-can__pos-2 {
+        left: -85%;
+        bottom: 19%;
+    }
+
+    .we-can__pos-3 {
+        left: 0%;
+        bottom: 24%;
+        display: none;
+    }
+
+    .we-can__pos-4 {
+        top: 11%;
+        left: 20%;
+    }
+
+    .we-can__pos-5 {
+        bottom: 10%;
+        right: -100%;
+    }
+
+    .we-can__pos-6 {
+        bottom: 43%;
+        right: -95%;
+    }
+
+    .we-can__pos-7 {
+        top: 23%;
+        right: -4%;
+    }
+
+    .we-can__pos-8 {
+        bottom: -2%;
+        right: 0%;
     }
 }

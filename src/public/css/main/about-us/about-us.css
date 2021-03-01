@@ -115,3 +115,106 @@
 .about-us__client-card-mt {
     margin-top: 56px;
 }
+
+.about-us__blue-round,
+.about-us__blue-hor,
+.about-us__violet-hor,
+.about-us__orange-right,
+.about-us__green-right,
+.blue-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    position: absolute;
+}
+
+.about-us__blue-hor {
+    background-image: url('/circles/light/blue-hor.png');
+    width: 906px;
+    height: 906px;
+
+    top: 0;
+    left: 7%;
+}
+
+.about-us__violet-hor {
+    background-image: url('/circles/light/violet-hor.png');
+    width: 906px;
+    height: 906px;
+
+    top: 17%;
+    right: -3%;
+}
+
+.about-us__orange-right {
+    background-image: url('/circles/light/orange-right.png');
+    width: 906px;
+    height: 906px;
+
+    top: 25%;
+    right: 20%;
+}
+
+.about-us__green-right {
+    background-image: url('/circles/light/green-right.png');
+    width: 906px;
+    height: 906px;
+
+    top: 42%;
+    left: -7%;
+}
+
+.about-us__blue-round {
+    background-image: url('/circles/light/blue-round.png');
+    width: 906px;
+    height: 1200px;
+
+    bottom: -35%;
+    left: 42%;
+}
+
+.blue-right {
+    display: none;
+
+    background-image: url('/circles/light/blue-right.png');
+    width: 906px;
+    height: 1200px;
+}
+
+@media (max-width: 576px) {
+    .about-us__blue-hor {
+        top: -3%;
+        left: -25%;
+    }
+
+    .about-us__violet-hor {
+        top: 10%;
+        right: unset;
+        left: -30%;
+    }
+
+    .about-us__orange-right {
+        top: 45%;
+        right: unset;
+        left: -25%;
+    }
+
+    .about-us__green-right {
+        top: 28%;
+        left: unset;
+        right: -25%;
+    }
+
+    .blue-right {
+        display: block;
+
+        top: 60%;
+        left: -30%;
+    }
+
+    .about-us__blue-round {
+        bottom: -17%;
+        left: -60%;
+    }
+}
