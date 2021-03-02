@@ -59,3 +59,71 @@
         display: none;
     }
 }
+
+.fade-10 {
+    -webkit-animation: fade 10s infinite;
+    animation: fade 10s infinite;
+    -moz-animation: fade 10s infinite;
+    -o-animation: fade 10s infinite;
+}
+
+.fade-15 {
+    -webkit-animation: fade 15s infinite;
+    animation: fade 15s infinite;
+    -moz-animation: fade 15s infinite;
+    -o-animation: fade 15s infinite;
+}
+
+.fade-20 {
+    -webkit-animation: fade 20s infinite;
+    animation: fade 20s infinite;
+    -moz-animation: fade 20s infinite;
+    -o-animation: fade 20s infinite;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+@-o-keyframes fade {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
