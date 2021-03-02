@@ -125,14 +125,28 @@
 
 .who-we-are--text-bold {
     font-weight: 500;
+    white-space: pre-line;
+}
+
+@media (max-width: 576px) {
+    .who-we-are--text-bold {
+        font-weight: 500;
+        white-space: unset;
+    }
 }
 
 .who-we-are--max-864 {
     max-width: 864px;
 }
 
-.who-we-are--max-747 {
+.who-we-are__descr {
     max-width: 747px;
+}
+
+@media (max-width: 576px) {
+    .who-we-are__descr {
+        white-space: pre-line;
+    }
 }
 
 .who-we-are--spacing > .col-auto:nth-of-type(2) {
