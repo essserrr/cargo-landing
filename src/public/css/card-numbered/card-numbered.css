@@ -65,7 +65,6 @@
 .card-numbered.card-numbered--md .card-numbered__text {
     max-width: 348px;
     letter-spacing: 0.1px;
-    white-space: pre-line;
 }
 
 @media (max-width: 576px) {
@@ -75,7 +74,6 @@
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.1px;
-        white-space: pre-line;
     }
 }
 

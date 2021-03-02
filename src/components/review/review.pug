@@ -11,6 +11,7 @@ mixin review(props)
             .col 
                 .review__name #{name}
                 .review__place  #{place}
-            .col-12.review__text #{text}
+            .col-12.review__text
+                block
             if showMore
                 button.review__read-more Читать далее
