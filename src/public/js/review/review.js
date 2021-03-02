@@ -20,6 +20,7 @@ $(function () {
     };
 
     slider = $('.js-review-slider').bxSlider({
+        mode: 'fade',
         pager: false,
         controls: true,
         onSlideBefore: slideCallback,
