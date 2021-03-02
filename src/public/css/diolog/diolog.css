@@ -3,6 +3,9 @@
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #2b303e;
+
+    position: relative;
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -20,7 +23,7 @@
 }
 
 .diolog__content {
-    z-index: 1;
+    z-index: 2;
 }
 
 .diolog .fancybox-button.fancybox-close-small {
@@ -61,4 +64,72 @@
 .diolog .fancybox-button.fancybox-close-small:hover {
     border-color: #7370ff;
     background: #7370ff;
+}
+
+.callb__blue-round,
+.callb__violet-left,
+.callb__violet-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    position: absolute;
+}
+
+.callb__blue-round {
+    background-image: url('/circles/dark/blue-round.png');
+    width: 906px;
+    height: 906px;
+
+    top: -15%;
+    left: 20%;
+}
+
+.callb__violet-left {
+    background-image: url('/circles/dark/violet-left.png');
+    width: 906px;
+    height: 906px;
+
+    right: 45%;
+    top: 10%;
+}
+
+.callb__violet-right {
+    background-image: url('/circles/dark/violet-right.png');
+    width: 906px;
+    height: 906px;
+
+    bottom: -50%;
+    left: 35%;
+}
+
+.diolog__content.diolog--success ~ .callb__blue-round {
+    top: -35%;
+    left: 40%;
+}
+
+.diolog__content.diolog--success ~ .callb__violet-right {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .callb__blue-round {
+        top: -10%;
+        left: 5%;
+    }
+
+    .callb__violet-left {
+        right: -10%;
+        top: 10%;
+    }
+
+    .callb__violet-right {
+        bottom: -53%;
+        left: -5%;
+    }
+
+    .diolog__content.diolog--success ~ .callb__blue-round {
+        top: -55%;
+        left: 10%;
+    }
 }

@@ -15,6 +15,8 @@ $(function () {
             .parents('.callb-form')
             .find('.js-close-fancy-button')
             .toggleClass('hidden');
+
+        target.parents('.diolog__content').addClass('diolog--success');
     };
 
     $('#form-phoneback').on('submit', submitPhoneHandler);
@@ -32,6 +34,8 @@ $(function () {
         parents
             .find('.callb-form__title')
             .html('Ваша заявка \nна рассчет стоимости \nдоставки принята');
+
+        target.parents('.diolog__content').addClass('diolog--success');
     };
     $('#form-costs').on('submit', submitCostsHandler);
 });

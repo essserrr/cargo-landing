@@ -5,7 +5,6 @@
     padding-right: 48px !important;
 
     box-sizing: border-box;
-    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 1200px) {
@@ -29,11 +28,9 @@
     left: 48px;
     bottom: 16px;
 
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 24px;
     z-index: -1;
-
-    backdrop-filter: blur(40px);
 }
 
 .review :before {
@@ -49,12 +46,10 @@
     left: 24px;
     bottom: 8px;
 
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 24px;
 
     z-index: -2;
-
-    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 1200px) {
@@ -67,10 +62,8 @@
 .review__content {
     padding: 48px 40px 48px 40px;
 
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 24px;
-
-    backdrop-filter: blur(40px);
 }
 
 @media (max-width: 576px) {
