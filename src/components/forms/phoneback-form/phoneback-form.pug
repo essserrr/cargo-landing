@@ -24,4 +24,4 @@ include ../../checkbox/checkbox.pug
             .callb-form__button
                 +button({label: "рассчитать стоимость", theme: "green", type: "submit", size: "lg"})
         .callb-form__checkbox.js-agreement
-            +checkbox({label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных", theme: "light", check: "validate[minCheckbox[1]]", name: 'agreement[]'})
+            +checkbox({checked: true, label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных", theme: "light", check: "validate[minCheckbox[1]]", name: 'agreement[]'})

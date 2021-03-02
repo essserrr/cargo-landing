@@ -17,4 +17,4 @@ form#form-delivery.row.no-gutters.justify-content-center.justify-content-md-betw
     .col-auto.delivery-form__button 
         +button({label: "заказать доставку", type: "submit"})
     .col-auto.delivery-form__agreement
-        +checkbox({label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных", check: "validate[minCheckbox[1]]", name: 'agreement[]'})
+        +checkbox({checked: true, label: "Нажимая на кнопку «Заказать доставку», я соглашаюсь с условиями обработки персональных данных", check: "validate[minCheckbox[1]]", name: 'agreement[]'})
