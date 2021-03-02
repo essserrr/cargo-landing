@@ -3,5 +3,7 @@ $(document).ready(function () {
         console.log('Validation engine is not connected');
         return;
     }
-    $('#form-delivery, #form-phoneback').validationEngine();
+    $('#form-delivery, #form-phoneback, #form-costs').validationEngine({
+        promptPosition: 'topRight:-100',
+    });
 });
