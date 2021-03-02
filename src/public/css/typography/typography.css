@@ -47,8 +47,23 @@ h1 {
     margin: 0;
 }
 
+.h1-like {
+    font-family: 'TT Travels Medium', Arial, sans-serif;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0;
+}
+
 @media (max-width: 575px) {
     h1 {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.5px;
+    }
+
+    .h1-like {
         font-size: 32px;
         line-height: 40px;
         letter-spacing: 0.5px;

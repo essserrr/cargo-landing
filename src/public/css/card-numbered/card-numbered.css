@@ -41,6 +41,8 @@
     min-width: 440px;
     max-width: 440px;
 
+    min-height: 168px;
+
     padding: 44px 48px 40px 44px;
 
     border-radius: 16px;
@@ -53,6 +55,8 @@
 @media (max-width: 576px) {
     .card-numbered.card-numbered--md {
         min-width: 343px;
+
+        min-height: 156px;
     }
 }
 

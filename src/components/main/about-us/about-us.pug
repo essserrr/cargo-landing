@@ -4,40 +4,32 @@ include ../../card-numbered/card-numbered.pug
 article.about-us.main-block.row.no-gutters
     .about-us__content.col-12
         header.row.no-gutters.justify-content-center
-            h1.about-us__title Всё для успешного бизнеса с Китаем
+            .h1-like.about-us__title Всё для успешного бизнеса с Китаем
 
         section.about-us__cards-block
             .row.no-gutters.justify-content-center.justify-content-lg-between
                 .col-auto.about-us__feature
                     +card-with-icon({icon: "box.svg", margin: "sm", variant: "bordered"})
                         h4.about-us__feature-title 
-                            | #{"Доставка грузов "}
-                            .showon-sm
-                            | из Китая
+                            | #{"Доставка грузов \nиз Китая"}
                         h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
                 .col-auto.about-us__feature
                     +card-with-icon({icon: "case.svg", margin: "sm", variant: "bordered"})
                         h4.about-us__feature-title 
-                            | #{"Таможенное оформление "}
-                            .showon-sm
-                            | и сертификация грузов
+                            | #{"Таможенное оформление \nи сертификация грузов"}
                         h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
                 .col-auto.about-us__feature
                     +card-with-icon({icon: "search.svg", margin: "sm", variant: "bordered"})
                         h4.about-us__feature-title 
-                            | #{"Поиск поставщиков "}
-                            .hideon-sm
-                            | и товаров
+                            | #{"Поиск поставщиков \nи товаров"}
                         h6.about-us__feature-descr Найдем необходимого поставщика товара в Китае и организуем поставку.
 
                 .col-auto.about-us__feature
                     +card-with-icon({icon: "placing.svg", margin: "sm", variant: "bordered"})
                         h4.about-us__feature-title 
-                            | Размещение OEM/
-                            .showon-sm
-                            | ODM производства в Китае
+                            | #{"Размещение OEM/\nODM производства в Китае"}
                         h6.about-us__feature-descr Мы способны найти фабрику, которая сможет разработать, произвести товар под вашим логотипом, по вашим формам и характеристикам.
 
                 .col-auto.about-us__feature
@@ -48,15 +40,13 @@ article.about-us.main-block.row.no-gutters
                 .col-auto.about-us__feature
                     +card-with-icon({icon: "check.svg", margin: "sm", variant: "bordered"})
                         h4.about-us__feature-title 
-                            | #{"Инспектирование фабрик "}
-                            .showon-sm
-                            | и поставщиков товара
+                            | #{"Инспектирование фабрик \nпоставщиков товара"}
                         h6.about-us__feature-descr Разрабатываем оптимальный маршрут доставки товара, согласно запросу заказчика. Доставляем грузы по земле, воздуху и воде.
 
         section.about-us__work-with
             .row.no-gutters.justify-content-between
                 .col-xl-auto.col-12
-                    h1.about-us__description-title
+                    .h1-like.about-us__description-title
                         | #{"Работа "}
                         .hideon-xl
                         .showon-sm
