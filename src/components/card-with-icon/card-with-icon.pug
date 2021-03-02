@@ -4,7 +4,7 @@ mixin card-with-icon(props)
     - const marginVariant = ` card-with-icon--margin-${margin}`;
     div(class=`card-with-icon${cardVariant}`)
         .col-12.px-0.card-with-icon__icon-block
-            img.card-with-icon__icon(src=`/css/icons/${icon}`)
+            img.card-with-icon__icon(src=`/icons/${icon}`)
         if (block)
             div(class=`col-12 px-0 card-with-icon__text-block${marginVariant}`)
                 block
