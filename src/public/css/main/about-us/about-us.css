@@ -45,6 +45,12 @@
     line-height: 32px;
 }
 
+@media (max-width: 576px) {
+    .about-us__feature-title {
+        white-space: pre-line;
+    }
+}
+
 .about-us__work-with {
     margin-top: 240px;
 }
@@ -130,7 +136,7 @@
 }
 
 .about-us__blue-hor {
-    background-image: url('/circles/light/blue-hor.png');
+    background-image: url('../../../circles/light/blue-hor.png');
     width: 906px;
     height: 906px;
 
@@ -139,7 +145,7 @@
 }
 
 .about-us__violet-hor {
-    background-image: url('/circles/light/violet-hor.png');
+    background-image: url('../../../circles/light/violet-hor.png');
     width: 906px;
     height: 906px;
 
@@ -148,7 +154,7 @@
 }
 
 .about-us__orange-right {
-    background-image: url('/circles/light/orange-right.png');
+    background-image: url('../../../circles/light/orange-right.png');
     width: 906px;
     height: 906px;
 
@@ -157,7 +163,7 @@
 }
 
 .about-us__green-right {
-    background-image: url('/circles/light/green-right.png');
+    background-image: url('../../../circles/light/green-right.png');
     width: 906px;
     height: 906px;
 
@@ -166,7 +172,7 @@
 }
 
 .about-us__blue-round {
-    background-image: url('/circles/light/blue-round.png');
+    background-image: url('../../../circles/light/blue-round.png');
     width: 906px;
     height: 1200px;
 
@@ -177,7 +183,7 @@
 .blue-right {
     display: none;
 
-    background-image: url('/circles/light/blue-right.png');
+    background-image: url('../../../circles/light/blue-right.png');
     width: 906px;
     height: 1200px;
 }

@@ -230,19 +230,19 @@
 }
 
 .we-can__blue-round {
-    background-image: url('/circles/dark/blue-round.png');
+    background-image: url('../../../circles/dark/blue-round.png');
     width: 720px;
     height: 720px;
 }
 
 .we-can__violet-left {
-    background-image: url('/circles/dark/violet-left.png');
+    background-image: url('../../../circles/dark/violet-left.png');
     width: 803px;
     height: 803px;
 }
 
 .we-can__violet-right {
-    background-image: url('/circles/dark/violet-right.png');
+    background-image: url('../../../circles/dark/violet-right.png');
     width: 720px;
     height: 720px;
 }

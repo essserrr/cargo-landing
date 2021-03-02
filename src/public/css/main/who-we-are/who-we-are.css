@@ -4,7 +4,7 @@
     padding-top: 45px;
     padding-bottom: 80px;
 
-    background-image: url('/backgrounds/bg1.png');
+    background-image: url('../../../backgrounds/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -43,7 +43,7 @@
 
     z-index: 0;
 
-    background-image: url('/objects/container.png');
+    background-image: url('../../../objects/container.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;

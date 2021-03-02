@@ -77,7 +77,7 @@
 }
 
 .callb__blue-round {
-    background-image: url('/circles/dark/blue-round.png');
+    background-image: url('../../circles/dark/blue-round.png');
     width: 906px;
     height: 906px;
 
@@ -86,7 +86,7 @@
 }
 
 .callb__violet-left {
-    background-image: url('/circles/dark/violet-left.png');
+    background-image: url('../../circles/dark/violet-left.png');
     width: 906px;
     height: 906px;
 
@@ -95,7 +95,7 @@
 }
 
 .callb__violet-right {
-    background-image: url('/circles/dark/violet-right.png');
+    background-image: url('../../circles/dark/violet-right.png');
     width: 906px;
     height: 906px;
 
