@@ -1,10 +1,14 @@
 mixin diolog(props)
-    - const { id } = props;
+    - const { id, theme="dark" } = props;
+    - const themeStyle = `diolog--theme-${theme}`
 
-    .diolog(style='display: none', id=id)
+    .diolog(class=`${themeStyle}`, style='display: none', id=id)
         .diolog__content.col-12.px-0
             block
-
-        .callb__blue-round.fade-20
-        .callb__violet-left.fade-15
-        .callb__violet-right.fade-10
+        if (theme === "dark")
+            .callb__blue-round.fade-20
+            .callb__violet-left.fade-15
+            .callb__violet-right.fade-10
+        if (theme === "light")
+            .callb__blue-right.fade-20
+            .callb__blue-left.fade-15

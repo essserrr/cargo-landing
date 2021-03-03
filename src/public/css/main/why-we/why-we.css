@@ -200,6 +200,7 @@
     box-sizing: border-box;
 
     border-radius: 50%;
+    background: none;
 }
 
 .why-we__review-container .bx-next {

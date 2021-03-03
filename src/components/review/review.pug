@@ -1,5 +1,7 @@
+include ../diolog/diolog.pug
+
 mixin review(props)
-    - const { avatar, name, place, text, showMore = false } = props;
+    - const { avatar, id, name, place, text, showMore = false } = props;
 
     - const cardBody = ` review--body-${body}`;
     - const cardVariant = ` review--${variant}`;
@@ -13,4 +15,14 @@ mixin review(props)
                 .review__place  #{place}
             .col-12.review__text #{text}
             if showMore
-                button.review__read-more Читать далее
+                button.js-read-more.review__read-more(data-open-target=`#${id}`) Читать далее
+        if showMore
+            +diolog({id:id, theme: 'light'})
+                .row.no-gutters.align-items-center
+                    .review__icon-container
+                        img.review__icon(src=`/avatars/${avatar}`)
+                    .col 
+                        .review__name #{name}
+                        .review__place  #{place}
+                    .col-12.review__text #{text}
+                    .col-12.review__text #{text}
