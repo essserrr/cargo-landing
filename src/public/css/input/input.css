@@ -16,6 +16,8 @@
 .input.input--theme-light {
     color: #111111;
     background: rgba(255, 255, 255, 0.5);
+
+    border: 1px solid transparent;
 }
 
 .input.input--theme-light:hover {
@@ -58,6 +60,8 @@
 
     min-width: 320px;
     max-width: 320px;
+
+    border: 1px solid transparent;
 }
 
 @media (max-width: 576px) {
@@ -106,4 +110,13 @@
     font-size: 16px;
     line-height: 24px;
     color: #ffffffda;
+}
+
+
+
+.hidden.formError+.input.input--theme-dark {
+    border: 1px solid #FE327B;
+}
+.hidden.formError+.input.input--theme-light {
+    border: 1px solid #F45F94;
 }

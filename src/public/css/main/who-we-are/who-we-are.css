@@ -72,6 +72,15 @@
     }
 }
 
+.who-we-are--clear-anchor {
+    color: unset;
+}
+
+.who-we-are--clear-anchor:hover {
+    color: unset;
+    text-decoration: unset;
+}
+
 .who-we-are--title-margin {
     margin-top: 124.6px;
 }

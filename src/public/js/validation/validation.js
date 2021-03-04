@@ -5,5 +5,7 @@ $(document).ready(function () {
     }
     $('#form-delivery, #form-phoneback, #form-costs').validationEngine({
         promptPosition: 'topRight:-100',
+        addPromptClass:"hidden"
     });
+
 });
