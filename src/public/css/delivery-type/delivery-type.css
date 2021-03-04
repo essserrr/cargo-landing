@@ -87,11 +87,11 @@
 }
 
 .delivery-type:hover .delivery-type__sticker {
-    -webkit-animation: oscillate 2s infinite linear;
-    -moz-animation: oscillate 2s infinite linear;
-    -o-animation: oscillate 2s infinite linear;
-    -ms-animation: oscillate 2s infinite linear;
-    animation: oscillate 2s infinite linear;
+    -webkit-animation: oscillate 1.5s infinite linear;
+    -moz-animation: oscillate 1.5s  infinite linear;
+    -o-animation: oscillate 1.5s  infinite linear;
+    -ms-animation: oscillate 1.5s  infinite linear;
+    animation: oscillate 1.5s  infinite linear;
 }
 
 @-webkit-keyframes oscillate {
