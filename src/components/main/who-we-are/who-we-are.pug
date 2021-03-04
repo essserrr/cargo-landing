@@ -9,7 +9,8 @@ article.who-we-are.main-block.row.no-gutters
                 .col-auto
                     img.who-we-are__logo(src='/icons/logo.svg')
                 .who-we-are__phone.col-auto.text-right
-                    h4 +7 (963) 800-57-52
+                    a.who-we-are--clear-anchor(href="tel:+7-963-800-5752", title="+7-963-800-5752")
+                        h4 +7 (963) 800-57-52
                     .who-we-are--feedback-margin
                         +text-button({label: "Обратный звонок", js: 'js-phoneback', target: "#phoneback"})
         section.who-we-are--title-margin.who-we-are--max-864

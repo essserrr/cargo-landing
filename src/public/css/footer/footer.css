@@ -101,6 +101,15 @@
     margin-top: 28px;
 }
 
+.footer--clear-anchor {
+    color: unset;
+}
+
+.footer--clear-anchor:hover {
+    color: unset;
+    text-decoration: unset;
+}
+
 @media (max-width: 576px) {
     .footer__phone {
         margin-top: 29px;
