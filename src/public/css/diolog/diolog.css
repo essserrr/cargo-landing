@@ -11,6 +11,7 @@
 .diolog.diolog--theme-light {
     background: #FFFFFF;
     border-radius: 24px;
+    padding-top: 48px;
 }
 
 @media (max-width: 768px) {
@@ -18,6 +19,9 @@
         width: 343px;
         padding-top: 64px;
         padding-bottom: 64px;
+    }
+    .diolog.diolog--theme-light {
+        padding-top: 40px;
     }
 }
 
@@ -73,6 +77,10 @@
 
 .diolog.diolog--theme-light .fancybox-button.fancybox-close-small svg path {
     stroke: #BDBDBD;
+}
+
+.diolog.diolog--theme-light .fancybox-button.fancybox-close-small:hover svg path {
+    stroke: #ffffff;
 }
 
 
