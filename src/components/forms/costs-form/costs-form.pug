@@ -22,7 +22,7 @@ include ../../checkbox/checkbox.pug
                 +with-units({units: "кг"})
                     +input({theme: "dark", placeholder: "вес", check: "validate[required]", name: "mass"})
             .callb-form__item
-                +select({name: 'type', check: "validate[required]", placeholder: "тип груза", options: ["тип 1", "тип 2", "тип 3"]})
+                +input({theme: "dark", placeholder: "тип груза", check: "validate[required]", name: "type"})
             .callb-form__item
                 +select({name: 'phoneBack', check: "validate[required]", placeholder: "время для звонка", options: ["09 - 10", "10 - 11"]})
             .callb-form__button
