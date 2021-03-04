@@ -1,34 +1,13 @@
-@-moz-keyframes ticker {
+@keyframes ticker-fp {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         visibility: visible;
     }
+
     100% {
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-}
-@-webkit-keyframes ticker {
-    0% {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        visibility: visible;
-    }
-    100% {
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-}
-@keyframes ticker {
-    0% {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        visibility: visible;
-    }
-    100% {
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
+        -webkit-transform: translate3d(calc(-100%), 0, 0);
+        transform: translate3d(calc(-200%), 0, 0);
     }
 }
 
@@ -42,22 +21,23 @@
     overflow: hidden;
 
     background-color: white;
+
+    display: flex;
 }
-.ticker-wrap .ticker {
+
+.ticker-wrap .ticker-fp {
     display: inline-block;
 
     height: 88px;
 
-    padding-right: 250px;
     padding-top: 24px;
     padding-bottom: 24px;
 
     white-space: nowrap;
-
-    -webkit-animation: ticker 20s linear infinite;
-    -moz-animation: ticker 20s linear infinite;
-    animation: ticker 20s linear infinite;
+    
+    animation: ticker-fp 40s linear infinite;
 }
+
 .ticker-wrap .ticker__item {
     display: inline-block;
 
@@ -65,4 +45,32 @@
     font-size: 32px;
     line-height: 40px;
     color: #6dfe3b;
+
 }
+
+@keyframes ticker-sp {
+    0% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(calc(-300%), 0, 0);
+        transform: translate3d(calc(-300%), 0, 0);
+    }
+}
+
+.ticker-wrap .ticker-sp {
+    display: inline-block;
+
+    height: 88px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    white-space: nowrap;
+    animation: ticker-sp 40s linear infinite;
+
+    animation-delay: 20s;
+}
+

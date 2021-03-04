@@ -2,5 +2,7 @@ mixin ticker(props)
     - const { text, width = 250 } = props;
 
     .ticker-wrap(style=`padding-left: ${width}px;`)
-        .ticker(style=`padding-right: ${width}px;`)
+        .ticker-fp
+            .ticker__item #{text}
+        .ticker-sp
             .ticker__item #{text}
